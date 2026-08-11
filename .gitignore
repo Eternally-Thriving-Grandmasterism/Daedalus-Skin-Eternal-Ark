@@ -1,0 +1,33 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build / temp
+*.tmp
+*.log
+*.bak
+__pycache__/
+*.pyc
+.env
+.venv/
+node_modules/
+
+# CAD / large binaries (add as needed)
+*.step
+*.stp
+*.iges
+*.igs
+*.dwg
+*.sldprt
+*.sldasm
+
+# Simulation outputs
+*.out
+*.csv.bak
+results/
