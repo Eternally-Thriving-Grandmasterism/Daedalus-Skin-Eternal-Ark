@@ -5,27 +5,33 @@
 
 ---
 
-## Foundation + Reference Design + First Quantitative Layer: COMPLETE
+## Major Layers Complete
 
-## Deeper Refinement Layer (Just Completed)
+- Foundation (Requirements, ADRs, collaboration, interfaces)
+- Reference Seed Vessel DSA-Ref-A definition + top-level budgets
+- First quantitative models (propellant, life support, sail, structure/shielding)
+- Deeper refinement (bottom-up structure, dose trade, FMEA outline, assembly sequence)
 
-| Item | Status | Link |
-|------|--------|------|
-| Bottom-up structural mass framework | Complete | systems/structure/dsa-ref-a-bottom-up-mass.md |
-| Higher-fidelity shielding model guidance | Complete | systems/shielding/dsa-ref-a-shielding-model.md |
-| Expanded FMEA outline & critical failure modes | Complete | governance/dsa-ref-a-fmea-outline.md |
-| Detailed orbital assembly sequence | Complete | manufacturing/dsa-ref-a-assembly-sequence.md |
+## Newly Completed in This Cycle
 
-## Current Highest-Leverage Remaining Work
+| Item | Link |
+|------|------|
+| First analytical structural mass estimate | systems/structure/dsa-ref-a-structural-mass-estimate.md |
+| Dose vs. areal density + active/passive trade | systems/shielding/dsa-ref-a-dose-trade.md |
+| Higher-fidelity magnetic sail performance | systems/propulsion/dsa-ref-a-magsail-performance.md |
+| First populated FMEA (Propulsion & Power) | governance/dsa-ref-a-fmea-propulsion.md |
+| Technology maturation & test plan | manufacturing/technology-maturation-plan.md |
 
-1. Actual analytical / FE-level structural mass numbers for the 140 m habitat (using the new framework)
-2. Quantitative dose vs. areal density and active/passive shielding trade for DSA-Ref-A
-3. Higher-fidelity magnetic sail drag performance estimates
-4. Population of full FMEA tables for the top three critical subsystems
-5. Industrial capacity and launch/in-space manufacturing requirements analysis
-6. Technology maturation test plan linked to the development roadmap
+## Highest-Leverage Remaining Work
+
+1. Material-specific structural sizing + early FE confirmation
+2. Full FMEA population for habitat spin system and life support
+3. Quantitative magnetic sail drag curves vs. plasma density
+4. Industrial capacity and in-space manufacturing requirements analysis
+5. Updated top-level mass budget that absorbs the new structural and shielding numbers
+6. Detailed progressive flight-test / demonstration program
 
 ---
 
-**The Reference Seed Vessel now has structural, shielding, safety (FMEA), and assembly depth.**  
-Further work is increasingly specific and quantitative against a stable target.
+**The Reference Seed Vessel now has structural numbers, shielding trades, sail performance guidance, living FMEA content, and an executable technology maturation plan.**  
+The program is ready for further high-fidelity engineering and test planning.
