@@ -5,34 +5,32 @@
 
 ---
 
-## Baseline Status: Comprehensive + Human Systems Depth
+## PHASE STATUS: DEFINITION COMPLETE
 
-### Newly Completed
+See [docs/PHASE-STATUS.md](PHASE-STATUS.md) for the formal declaration.
+
+The Reference Seed Vessel (DSA-Ref-A) definition is comprehensive and coherent. The program now enters the **Detailed Engineering, Simulation & Technology Maturation Phase**.
+
+### Final Definition Additions
 
 | Item | Link |
 |------|------|
-| Detailed habitat volume allocation (300 people) | systems/habitat/dsa-ref-a-volume-allocation.md |
-| Long-duration crew simulation campaign design | systems/habitat/dsa-ref-a-simulation-campaign.md |
+| Deck-by-deck layout concept | systems/habitat/dsa-ref-a-deck-layout.md |
+| Formal Phase Status declaration | docs/PHASE-STATUS.md |
 
-### The Reference Seed Vessel now includes
+## Work Character Going Forward
 
-- Full technical architecture and quantitative models
-- Complete first-round FMEA across major systems
-- Industrial and programmatic prerequisites
-- Progressive flight-test and technology maturation plans with measurable gates
-- Crew psychological/social design
-- Spatial volume allocation
-- Long-duration simulation and selection campaign design
-
-## Remaining Work (Primarily Physical / Computational)
+Remaining work is no longer architectural definition. It consists of:
 
 1. Finite-element structural confirmation and material-specific mass numbers
-2. Validated magnetic sail drag simulations or proxy experiments
-3. Detailed deck-by-deck layout from the volume allocation
-4. Execution of technology maturation tests and simulation campaigns
-5. Continuous mass-budget tightening as real numbers arrive
+2. Validated magnetic sail performance modeling or proxy experiments
+3. Detailed equipment-level layout from the deck concept
+4. Execution of technology maturation test campaigns against defined gates
+5. Execution of progressive crew simulation campaigns
+6. Continuous updating of mass, risk, and FMEA as real data arrives
+7. Parallel industrial and fuel-acquisition capacity development
 
 ---
 
-**Architectural, systems, safety, industrial, flight-test, and human-systems definition for DSA-Ref-A is now substantially complete.**  
-Further major advances require detailed computation, physical testing, and real-world capacity building.
+**The definition phase is closed at a high standard.**  
+The lattice is ready for detailed engineering and physical realization under Autonomicity Games Inc. and PATSAGi / TOLC 8 governance.
