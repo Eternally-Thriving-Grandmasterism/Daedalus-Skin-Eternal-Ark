@@ -12,6 +12,7 @@ This index provides rapid navigation across the complete baseline.
 - [PHASE-STATUS.md](PHASE-STATUS.md) — Definition complete; Detailed Engineering phase open
 - [DETAILED-ENGINEERING-PLAN.md](DETAILED-ENGINEERING-PLAN.md) — Near-term prioritized work plan
 - [OPEN-WORK.md](OPEN-WORK.md) — Living status
+- [work-packages/](work-packages/) — Active Detailed Engineering work packages
 - [COLLABORATION.md](../COLLABORATION.md) — Human + AI protocol
 - [configuration-management.md](configuration-management.md) — Change control & data packages
 - [TOLC8-decision-protocol.md](../governance/TOLC8-decision-protocol.md)
@@ -84,6 +85,13 @@ This index provides rapid navigation across the complete baseline.
 ## Materials
 
 - [daedalus-skin-requirements.md](../materials/daedalus-skin-requirements.md)
+- [habitat-structure-material-candidates.md](../materials/habitat-structure-material-candidates.md) — Short-list for WP-DE-01
+
+## Detailed Engineering Work Packages
+
+- [WP-DE-01 Structural Analysis](work-packages/WP-DE-01-structural-analysis.md)
+- [WP-DE-02 Radiation Dose](work-packages/WP-DE-02-radiation-dose.md)
+- [Work Packages Index](work-packages/README.md)
 
 ---
 
