@@ -5,37 +5,34 @@
 
 ---
 
-## Comprehensive Baseline Status: Strongly Mature
+## Baseline Status: Comprehensive + Human Systems Depth
 
 ### Newly Completed
 
 | Item | Link |
 |------|------|
-| Detailed technology maturation milestones with success metrics | manufacturing/technology-maturation-milestones.md |
-| Crew systems, psychological & social design | systems/habitat/dsa-ref-a-crew-systems.md |
+| Detailed habitat volume allocation (300 people) | systems/habitat/dsa-ref-a-volume-allocation.md |
+| Long-duration crew simulation campaign design | systems/habitat/dsa-ref-a-simulation-campaign.md |
 
-### Full Core Coverage Now Includes
+### The Reference Seed Vessel now includes
 
-- Architecture, requirements, ADRs, interfaces
-- Reference Seed Vessel definition and reconciled mass budget
-- Propulsion, life support, structure, shielding, sail models
-- Complete first-round FMEA (Propulsion, Habitat, Life Support, Sail)
-- Industrial capacity analysis
-- Integrated risk picture
-- Progressive flight-test program
-- Technology maturation plan + detailed milestones
-- Crew / psychological / social design
+- Full technical architecture and quantitative models
+- Complete first-round FMEA across major systems
+- Industrial and programmatic prerequisites
+- Progressive flight-test and technology maturation plans with measurable gates
+- Crew psychological/social design
+- Spatial volume allocation
+- Long-duration simulation and selection campaign design
 
-## Remaining Work (Highly Specialized / Next-Phase)
+## Remaining Work (Primarily Physical / Computational)
 
-1. Actual FE structural confirmation and material-specific mass numbers
-2. Validated magnetic sail drag simulations or proxy experimental data
-3. Further mass budget tightening as new numbers arrive
-4. Detailed internal layout and volume allocation for the 300-person habitat
-5. Long-duration simulation campaign design for crew selection and training
-6. Eventual physical technology demonstration execution
+1. Finite-element structural confirmation and material-specific mass numbers
+2. Validated magnetic sail drag simulations or proxy experiments
+3. Detailed deck-by-deck layout from the volume allocation
+4. Execution of technology maturation tests and simulation campaigns
+5. Continuous mass-budget tightening as real numbers arrive
 
 ---
 
-**The Daedalus-Skin Eternal Ark repository now contains a comprehensive, coherent, and actionable engineering baseline for the Reference Seed Vessel.**  
-Further progress is primarily detailed analysis, simulation, and physical testing rather than architectural definition.
+**Architectural, systems, safety, industrial, flight-test, and human-systems definition for DSA-Ref-A is now substantially complete.**  
+Further major advances require detailed computation, physical testing, and real-world capacity building.
