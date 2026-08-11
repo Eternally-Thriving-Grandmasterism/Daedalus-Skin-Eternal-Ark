@@ -5,33 +5,27 @@
 
 ---
 
-## Major Layers Complete
+## Review Outcome
 
-- Foundation (Requirements, ADRs, collaboration, interfaces)
-- Reference Seed Vessel DSA-Ref-A definition + top-level budgets
-- First quantitative models (propellant, life support, sail, structure/shielding)
-- Deeper refinement (bottom-up structure, dose trade, FMEA outline, assembly sequence)
+A full analysis of the repository was performed. The architecture is coherent and mature. The single highest-leverage gap identified was that the top-level mass budget had not yet absorbed the new structural and shielding work. That gap has now been closed.
 
-## Newly Completed in This Cycle
+## Newly Completed from Review
 
-| Item | Link |
-|------|------|
-| First analytical structural mass estimate | systems/structure/dsa-ref-a-structural-mass-estimate.md |
-| Dose vs. areal density + active/passive trade | systems/shielding/dsa-ref-a-dose-trade.md |
-| Higher-fidelity magnetic sail performance | systems/propulsion/dsa-ref-a-magsail-performance.md |
-| First populated FMEA (Propulsion & Power) | governance/dsa-ref-a-fmea-propulsion.md |
-| Technology maturation & test plan | manufacturing/technology-maturation-plan.md |
+| Item | Status | Link |
+|------|--------|------|
+| Reconciled top-level mass & power budget | Complete | manufacturing/reference-seed-mass-budget.md |
+| FMEA — Rotating Habitat & Spin System | Complete | governance/dsa-ref-a-fmea-habitat.md |
 
-## Highest-Leverage Remaining Work
+## Current Highest-Leverage Remaining Work
 
-1. Material-specific structural sizing + early FE confirmation
-2. Full FMEA population for habitat spin system and life support
-3. Quantitative magnetic sail drag curves vs. plasma density
+1. FMEA population for Life Support (biological + physicochemical)
+2. Material-specific structural sizing and early FE confirmation
+3. Quantitative magnetic sail drag performance vs. plasma density
 4. Industrial capacity and in-space manufacturing requirements analysis
-5. Updated top-level mass budget that absorbs the new structural and shielding numbers
-6. Detailed progressive flight-test / demonstration program
+5. Updated integrated risk picture after the new FMEA content
+6. Progressive flight-test / demonstration program detail
 
 ---
 
-**The Reference Seed Vessel now has structural numbers, shielding trades, sail performance guidance, living FMEA content, and an executable technology maturation plan.**  
-The program is ready for further high-fidelity engineering and test planning.
+**The Reference Seed Vessel now has a reconciled mass budget and FMEA coverage for both propulsion and habitat spin systems.**  
+The program remains on a clean, high-leverage path.
