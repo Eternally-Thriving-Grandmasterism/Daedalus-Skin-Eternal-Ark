@@ -13,14 +13,14 @@
 
 ---
 
-## Cycle-01 Baselines — Locked
+## Locked Baselines (Cycle-01)
 
 | Decision | Status |
 |----------|--------|
-| Primary structural material | **High-modulus CFRP locked** |
-| Radiation protection | **Optimised dual-use water + 450–750 t dedicated shielding locked** |
-| Reconciled mass budget | **Published** (`manufacturing/reference-seed-mass-budget.md`) |
-| Dry-mass planning center | **~15–17 kt** (previously ~20–25 kt) |
+| Primary structural material | High-modulus CFRP locked (5,850 t) |
+| Radiation protection | Dual-use water + 450–750 t dedicated locked |
+| Reconciled mass budget | Published |
+| Dry-mass planning center | ~15–17 kt |
 
 ---
 
@@ -28,20 +28,31 @@
 
 | ID | Title | Status |
 |----|-------|--------|
-| WP-DE-01 | Structural Analysis | Cycle-01 complete — baselines locked |
-| WP-DE-02 | Radiation Transport | Cycle-01 complete — baselines locked |
+| WP-DE-01 | Structural Analysis | Cycle-01 complete — locked |
+| WP-DE-02 | Radiation Transport | Cycle-01 complete — locked |
 | WP-DE-03 | Simulation Facility | Scope + verification runs defined |
+| **WP-MS-01** | **Magnetic Sail Mass & Architecture** | **Open — Mass envelope quantified** |
+
+---
+
+## Magnetic Sail Status (Primary Open Uncertainty — Now Bounded)
+
+- Three architecture options baselined (MS-A single loop, MS-B multi-loop array, MS-C boom/tensegrity)
+- Quantified mass envelope: **340–900 t** across options
+- Provisional preferred baseline: **MS-B (multi-loop array)** for redundancy under TOLC 8
+- Recommended planning value for next budget revision: **550–750 t**
+- Documents: `docs/work-packages/WP-MS-01-magnetic-sail.md`, `systems/propulsion/magsail-mass-envelope-cycle-01.md`
 
 ---
 
 ## Immediate Next Focus
 
-1. Higher-fidelity FEA confirmation of the 5,850 t CFRP number
-2. Monte-Carlo refinement of the 450–750 t shielding band
-3. Advance WP-DE-03 facility concept and ethical framework
-4. Refresh integrated risk picture (structural uncertainty substantially reduced)
-5. Magnetic sail mass uncertainty remains the next largest open item
+1. Higher-fidelity drag models vs. magnetic moment and plasma density
+2. Packaging interface definition with the non-rotating spine
+3. Update mass budget with the 550–750 t sail planning value upon Council acceptance of MS-B
+4. Continue WP-DE-03 facility concept work
+5. Gate E1 subscale deployment planning
 
 ---
 
-**Lattice clean. Cycle-01 baselines locked and mass budget published under TOLC 8.**
+**Lattice clean. Magnetic sail mass is now architecture-bounded under TOLC 8.**
