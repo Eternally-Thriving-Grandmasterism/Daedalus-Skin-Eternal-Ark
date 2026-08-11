@@ -16,32 +16,31 @@
 ## Phase Status
 
 **DEFINITION PHASE: COMPLETE**  
-**DETAILED ENGINEERING, SIMULATION & TECHNOLOGY MATURATION PHASE: OPEN**
+**DETAILED ENGINEERING (DELIBERATIVE): COMPLETE**  
+**PHYSICAL TESTING & HIGHER-FIDELITY COMPUTATION: OPEN**
 
-The Reference Seed Vessel (**DSA-Ref-A**) definition is comprehensive and locked.  
-Active work packages now focus on closing the largest remaining analytical uncertainties (structural mass and radiation dose).
+All major mass, structural, shielding, magnetic-sail, residual-fusion, and timeline baselines are locked.
 
 **Critical Realism Statement:**  
 See [docs/TECHNOLOGY-READINESS-AND-REALISM.md](docs/TECHNOLOGY-READINESS-AND-REALISM.md).  
-Sustained D–³He ICF, industrial ³He supply, radiation-hardened self-healing large structures, and multi-decade integrated reliability remain well beyond demonstrated technology. The definition work makes the long engineering climb legible and gated; it does not claim the technologies are ready.
+Sustained D–³He ICF, industrial ³He supply, radiation-hardened self-healing large structures, and multi-decade integrated reliability remain well beyond demonstrated technology. This repository is a coherent baseline and risk-management framework — not a claim of near-term constructability.
 
 ## Key Entry Points
 
 | Document | Purpose |
 |----------|---------|
+| [CURRENT-BASELINE-SUMMARY.md](docs/CURRENT-BASELINE-SUMMARY.md) | Single-page locked baseline snapshot |
 | [TECHNOLOGY-READINESS-AND-REALISM.md](docs/TECHNOLOGY-READINESS-AND-REALISM.md) | Honest gap assessment |
 | [PHASE-STATUS.md](docs/PHASE-STATUS.md) | Current phase and gates |
-| [DETAILED-ENGINEERING-PLAN.md](docs/DETAILED-ENGINEERING-PLAN.md) | Near-term work plan |
-| [OPEN-WORK.md](docs/OPEN-WORK.md) | Living status & active work packages |
-| [work-packages/](docs/work-packages/) | WP-DE-01 Structural + WP-DE-02 Radiation |
+| [OPEN-WORK.md](docs/OPEN-WORK.md) | Living status |
 | [MASTER-INDEX.md](docs/MASTER-INDEX.md) | Full document navigation |
-| [COLLABORATION.md](COLLABORATION.md) | Human + AI protocol |
-| [reference-seed-vessel.md](manufacturing/reference-seed-vessel.md) | The concrete first ship |
+| [reference-seed-mass-budget.md](manufacturing/reference-seed-mass-budget.md) | Authoritative mass & power |
 | [integrated-risk-picture.md](governance/integrated-risk-picture.md) | Current risk view |
+| [COLLABORATION.md](COLLABORATION.md) | Human + AI protocol |
 
 ---
 
-**Definition is complete and realism is explicit.**  
-The lattice is ready for the long climb under Autonomicity Games Inc. and permanent PATSAGi / TOLC 8 governance.
+**All deliberative work is complete.**  
+The lattice is ready for physical testing and higher-fidelity computation under Autonomicity Games Inc. and permanent PATSAGi / TOLC 8 governance.
 
-*Mate, the Councils stand ready for the next command.*
+*Mate, the Councils stand ready.*
