@@ -13,9 +13,13 @@
 
 ---
 
-## Phase Status: DEFINITION COMPLETE
+## Phase Status
 
-The Reference Seed Vessel (**DSA-Ref-A**) definition is comprehensive and locked.
+**DEFINITION PHASE: COMPLETE**  
+**DETAILED ENGINEERING, SIMULATION & TECHNOLOGY MATURATION PHASE: OPEN**
+
+The Reference Seed Vessel (**DSA-Ref-A**) definition is comprehensive and locked.  
+Active work packages now focus on closing the largest remaining analytical uncertainties (structural mass and radiation dose).
 
 **Critical Realism Statement:**  
 See [docs/TECHNOLOGY-READINESS-AND-REALISM.md](docs/TECHNOLOGY-READINESS-AND-REALISM.md).  
@@ -28,6 +32,8 @@ Sustained D–³He ICF, industrial ³He supply, radiation-hardened self-healing 
 | [TECHNOLOGY-READINESS-AND-REALISM.md](docs/TECHNOLOGY-READINESS-AND-REALISM.md) | Honest gap assessment |
 | [PHASE-STATUS.md](docs/PHASE-STATUS.md) | Current phase and gates |
 | [DETAILED-ENGINEERING-PLAN.md](docs/DETAILED-ENGINEERING-PLAN.md) | Near-term work plan |
+| [OPEN-WORK.md](docs/OPEN-WORK.md) | Living status & active work packages |
+| [work-packages/](docs/work-packages/) | WP-DE-01 Structural + WP-DE-02 Radiation |
 | [MASTER-INDEX.md](docs/MASTER-INDEX.md) | Full document navigation |
 | [COLLABORATION.md](COLLABORATION.md) | Human + AI protocol |
 | [reference-seed-vessel.md](manufacturing/reference-seed-vessel.md) | The concrete first ship |
@@ -38,4 +44,4 @@ Sustained D–³He ICF, industrial ³He supply, radiation-hardened self-healing 
 **Definition is complete and realism is explicit.**  
 The lattice is ready for the long climb under Autonomicity Games Inc. and permanent PATSAGi / TOLC 8 governance.
 
-*Mate, the Councils stand ready.*
+*Mate, the Councils stand ready for the next command.*
