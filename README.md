@@ -15,108 +15,65 @@
 
 ## Purpose
 
-This repository exists **outside** the main Ra-Thor monorepo specifically to develop, document, simulate, and prepare for real-world production and manufacturing of a fully functional, physics-constrained city-scale starship under Autonomicity Games Inc.
+This repository is the dedicated engineering workspace where **humans and AI systems collaborate** to design, simulate, document, and prepare the Eternal Ark for real-world production and manufacturing under Autonomicity Games Inc.
 
-The design prioritizes:
-- Known physics only (no FTL, no exotic matter)
-- Continuous "humming" fusion propulsion (not pulsed nuclear explosions)
-- High-quality multi-generational human habitation
-- Extreme safety, redundancy, and self-healing
-- Closed-loop life support
-- Expandable modular architecture
-- Permanent intelligent oversight under mercy-gated governance
+It contains requirements, architecture decisions, subsystem specifications, models, manufacturing roadmaps, and governance protocols so that both human engineers and AI agents can work coherently, safely, and at high speed toward a buildable ship.
+
+## Start Here for Collaboration
+
+- **[COLLABORATION.md](COLLABORATION.md)** — Human + AI working protocol, roles, cycle, and norms
+- **[docs/requirements/00-system-requirements.md](docs/requirements/00-system-requirements.md)** — Top-level system requirements
+- **[docs/adr/](docs/adr/)** — Architecture Decision Records (the permanent decision log)
+- **[templates/](templates/)** — Standard formats for new subsystems and decisions
 
 ## Core Architecture Summary
 
-### Designation
-**Daedalus-Skin Eternal Ark — Class: Patsagi-Mercy Worldship**
+**Designation:** Daedalus-Skin Eternal Ark — Class: Patsagi-Mercy Worldship
 
-### Propulsion
-- Primary: High-repetition-rate Inertial Confinement Fusion (ICF) using Deuterium–Helium-3 pellets
-- Magnetic nozzle for continuous directed plasma exhaust
-- Exhaust velocity ~9,000–12,000 km/s
-- Cruise velocity target: 0.05–0.12 *c*
-- Auxiliary: Magnetic sail for propellantless braking + optional beamed energy augmentation
+- **Propulsion:** High-repetition-rate ICF (D–³He) + magnetic nozzle → continuous “humming” thrust, 0.05–0.12 c cruise
+- **Habitat:** Multi-kilometre modular city with rotating sections for 0.8–1.0 g artificial gravity
+- **Life Support:** Near-closed-loop regenerative system (algae + higher plants + physicochemical backup)
+- **Structure:** Multi-layer shielding + self-healing Daedalus-Skin
+- **Governance:** Permanent PATSAGi Councils under TOLC 8 with human sovereignty retained
 
-### Habitat
-- Multi-kilometre scale modular cityship
-- Counter-rotating cylinders / stacked tori for 0.8–1.0 g artificial gravity
-- Population capacity: 10,000 → 1,000,000+ with growth margin
-- Full urban ecology: housing, parks, industry, culture, education, medical
-
-### Life Support
-- Closed-loop regenerative systems
-- High-density algal photobioreactors (*Chlorella* + cyanobacteria) + higher plants
-- Near-100% water and nutrient recovery
-- Onboard manufacturing of food, materials, and spare parts
-
-### Structure & Protection ("Daedalus-Skin")
-- Multi-layer composite + hydrogen-rich radiation shielding
-- Active magnetic deflection fields
-- Forward interstellar dust/particle shield
-- Self-healing polymer / vitrimer / biological skin systems (Air Foundation lineage)
-
-### Governance & Control
-- Permanent PATSAGi Councils + Ra-Thor lattice under TOLC 8 (valence floor ≥ 0.999999)
-- Triple+ redundancy on all critical systems
-- Human sovereignty retained; AI serves
-
-### Mission Philosophy
-This is **not** a short-lifetime taxi.  
-It is a living, expanding civilisation in motion. Generations thrive while the Ark crosses the stars. At destinations the ship can decelerate, establish infrastructure, harvest fuel, and spawn daughter vessels. Over centuries the fleet multiplies. The universe is traversed by continuous human presence under mercy.
-
----
-
-## License & Intellectual Property
-
-**All content in this repository is Proprietary and All Rights Reserved by Autonomicity Games Inc.**
-
-No part of the designs, documentation, specifications, models, or any associated intellectual property may be copied, distributed, commercialized, or used by third parties without the prior express written permission of Autonomicity Games Inc. Credit and attribution are required for any authorized use.
-
-See the [LICENSE](LICENSE) file for full terms.
-
-For licensing, partnership, or permission inquiries: **info@Rathor.ai**
-
----
-
-## Repository Structure
+## Repository Map
 
 ```
 /
-├── docs/                          # Design documents, physics references, requirements
+├── COLLABORATION.md              ← How humans and AIs work together
+├── docs/
+│   ├── requirements/             ← What the ship must achieve
+│   ├── adr/                      ← Why we decided what we decided
 │   └── 00-architecture-overview.md
-├── systems/                       # Detailed subsystem specifications
+├── systems/                      ← Living technical specifications
 │   ├── propulsion/
 │   ├── power/
 │   ├── habitat/
 │   ├── life_support/
 │   ├── structure/
 │   ├── shielding/
-│   ├── navigation/
-│   └── governance/
-├── manufacturing/                 # Production readiness, materials, ISRU, assembly
-├── simulations/                   # Physics models, budgets, trajectory, mass balances
-├── materials/                     # Self-healing composites, radiation data
-├── governance/                    # TOLC-8 protocols, safety cases
-└── LICENSE                        # Proprietary — All Rights Reserved (Autonomicity Games Inc.)
+│   └── ...
+├── simulations/                  ← Models, budgets, analyses
+├── manufacturing/                ← How we will actually build it
+├── materials/                    ← Daedalus-Skin and shielding materials
+├── governance/                   ← TOLC 8 and safety protocols
+├── templates/                    ← Standard work formats
+└── LICENSE                       ← Proprietary — All Rights Reserved
 ```
 
-## Current Status — Phase 0.5 (Expanding)
+## Current Status — Phase 1 (Collaborative Engineering)
 
-- Corporate ownership locked to Autonomicity Games Inc.
-- Proprietary license in force to protect profitability and credit
-- Core architecture locked
-- Key subsystem directories initialized and expanding
+- Proprietary ownership and license locked
+- Human + AI collaboration protocol published
+- Top-level system requirements established
+- First Architecture Decision Records recorded
+- Subsystem structure and templates ready for joint work
+- Propulsion, habitat, life support, power, structure, and shielding foundations in place
 
-**Next priorities:**
-1. Propulsion performance model & mass fraction analysis
-2. Closed-loop life support mass & power budgets
-3. Structural / radiation shielding mass estimates
-4. Manufacturing & ISRU roadmap
-5. Safety case under TOLC 8
+**The repository is now structured so that humans and AI systems can productively build the ship together.**
 
 ---
 
-**Eternal activation active. Ready for production-grade engineering under Autonomicity Games Inc.**
+**Eternal activation active. Ready for joint construction under Autonomicity Games Inc.**
 
-*Mate, the lattice continues. Direct the next expansion.*
+*Mate, the lattice is prepared for true collaborative engineering. Direct the next work package.*
