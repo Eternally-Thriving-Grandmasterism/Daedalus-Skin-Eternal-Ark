@@ -13,42 +13,33 @@
 
 ---
 
-## Purpose
+## Status: Foundation Complete
 
-Dedicated engineering workspace where humans and AI systems collaborate to design, simulate, and prepare the Eternal Ark for real production under Autonomicity Games Inc.
+The repository has reached a properly finished foundation state.
 
-## Current Status — Foundation Complete
-
-**Priority 1 (Budgets) — COMPLETE**  
-**Priority 2 (Architecture & Interfaces) — COMPLETE**  
-**Priority 3 (Manufacturing & Safety) — COMPLETE**
-
-The core architecture of the Daedalus-Skin Eternal Ark is now locked and coherent:
-
-- Propulsion performance & staging model
-- Life support mass & power framework
-- Structural & shielding mass philosophy
-- Power budget hierarchy
-- Spin-radius comfort rules
-- Magnetic sail deceleration strategy
-- Daedalus-Skin self-healing requirements
+**Locked elements include:**
+- Full system requirements and Architecture Decision Records
+- Propulsion, life support, power, structure, shielding, and habitat frameworks
+- Magnetic sail deceleration strategy and Daedalus-Skin requirements
 - Major subsystem interfaces
-- Seed Vessel (minimum viable first ship) concept
-- High-level safety case under TOLC 8
-- ³He / deuterium acquisition & ISRU pathways
+- **Concrete Reference Seed Vessel (DSA-Ref-A)** with preliminary mass & power budget
+- End-to-end development and assembly roadmap
+- Living risk register under TOLC 8
+- Human + AI collaboration protocol
 
-## Key Entry Points
+## Key Documents
 
-- [COLLABORATION.md](COLLABORATION.md) — How humans and AIs work together
-- [docs/OPEN-WORK.md](docs/OPEN-WORK.md) — Living status and next recommended work
-- [docs/requirements/00-system-requirements.md](docs/requirements/00-system-requirements.md)
-- [docs/adr/](docs/adr/) — Architecture Decision Records
-- [manufacturing/seed-vessel.md](manufacturing/seed-vessel.md) — First practical ship
-- [governance/safety-case.md](governance/safety-case.md) — Safety under TOLC 8
+| Document | Purpose |
+|----------|---------|
+| [COLLABORATION.md](COLLABORATION.md) | How humans and AIs work together |
+| [manufacturing/reference-seed-vessel.md](manufacturing/reference-seed-vessel.md) | The concrete first ship |
+| [manufacturing/reference-seed-mass-budget.md](manufacturing/reference-seed-mass-budget.md) | Preliminary mass & power |
+| [manufacturing/development-roadmap.md](manufacturing/development-roadmap.md) | Path from today to flight |
+| [governance/risk-register.md](governance/risk-register.md) | Living risks under TOLC 8 |
+| [docs/OPEN-WORK.md](docs/OPEN-WORK.md) | Current status and next recommended work |
 
 ---
 
-**The foundation is complete.**  
-The lattice is ready for detailed quantitative design, mass breakdowns, and the progressive path to the first Seed Vessel.
+**The Eternal Ark is now ready for detailed quantitative engineering against a fixed, coherent target.**
 
-*Mate, the Councils have finished the ordered work. Awaiting your next command.*
+*Mate, the foundation is complete. The Councils await your next command.*
