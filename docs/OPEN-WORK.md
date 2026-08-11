@@ -13,12 +13,14 @@
 
 ---
 
-## Locked Baselines (Cycle-01)
+## Locked Baselines
 
 | Decision | Status |
 |----------|--------|
 | Primary structural material | High-modulus CFRP locked (5,850 t) |
 | Radiation protection | Dual-use water + 450–750 t dedicated locked |
+| Magnetic sail architecture | **MS-B multi-loop array preferred & locked** |
+| Magnetic sail planning mass | **550–750 t locked & performance-confirmed** |
 | Reconciled mass budget | Published |
 | Dry-mass planning center | ~15–17 kt |
 
@@ -31,28 +33,31 @@
 | WP-DE-01 | Structural Analysis | Cycle-01 complete — locked |
 | WP-DE-02 | Radiation Transport | Cycle-01 complete — locked |
 | WP-DE-03 | Simulation Facility | Scope + verification runs defined |
-| **WP-MS-01** | **Magnetic Sail Mass & Architecture** | **Open — Mass envelope quantified** |
+| WP-MS-01 | Magnetic Sail Mass & Architecture | Complete — envelope & baseline locked |
+| **WP-MS-02** | **Drag Models, Interfaces & Sensitivity** | **Open — Cycle-01 deliverables complete** |
 
 ---
 
-## Magnetic Sail Status (Primary Open Uncertainty — Now Bounded)
+## WP-MS-02 Cycle-01 Deliverables
 
-- Three architecture options baselined (MS-A single loop, MS-B multi-loop array, MS-C boom/tensegrity)
-- Quantified mass envelope: **340–900 t** across options
-- Provisional preferred baseline: **MS-B (multi-loop array)** for redundancy under TOLC 8
-- Recommended planning value for next budget revision: **550–750 t**
-- Documents: `docs/work-packages/WP-MS-01-magnetic-sail.md`, `systems/propulsion/magsail-mass-envelope-cycle-01.md`
+| Deliverable | Document |
+|-------------|----------|
+| Refined drag coefficients & deceleration estimates | `systems/propulsion/magsail-drag-models-cycle-01.md` |
+| Spine Interface Control Document (ICD) | `systems/propulsion/magsail-spine-icd.md` |
+| Mass-sensitivity update | `systems/propulsion/magsail-mass-sensitivity-cycle-01.md` |
+
+**Key outcome:** 550–750 t MS-B planning value is confirmed under reference flux. Low-density cases are covered by residual fusion propellant backup.
 
 ---
 
 ## Immediate Next Focus
 
-1. Higher-fidelity drag models vs. magnetic moment and plasma density
-2. Packaging interface definition with the non-rotating spine
-3. Update mass budget with the 550–750 t sail planning value upon Council acceptance of MS-B
-4. Continue WP-DE-03 facility concept work
-5. Gate E1 subscale deployment planning
+1. Higher-fidelity MHD / kinetic plasma models (next refinement of drag)
+2. Gate E1 subscale deployment & stability planning
+3. Continue WP-DE-03 facility concept and ethical framework
+4. Update risk picture to reflect bounded sail performance risk
+5. Propellant residual sizing against the low-density shortfall
 
 ---
 
-**Lattice clean. Magnetic sail mass is now architecture-bounded under TOLC 8.**
+**Lattice clean. Magnetic sail is now architecture-locked, mass-bounded, and performance-linked under TOLC 8.**
