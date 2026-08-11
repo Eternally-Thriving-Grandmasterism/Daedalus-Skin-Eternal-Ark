@@ -17,30 +17,38 @@
 
 Dedicated engineering workspace where humans and AI systems collaborate to design, simulate, and prepare the Eternal Ark for real production under Autonomicity Games Inc.
 
-## Start Here
+## Current Status — Foundation Complete
 
-- [COLLABORATION.md](COLLABORATION.md) — Human + AI protocol
-- [docs/requirements/00-system-requirements.md](docs/requirements/00-system-requirements.md) — System requirements
+**Priority 1 (Budgets) — COMPLETE**  
+**Priority 2 (Architecture & Interfaces) — COMPLETE**  
+**Priority 3 (Manufacturing & Safety) — COMPLETE**
+
+The core architecture of the Daedalus-Skin Eternal Ark is now locked and coherent:
+
+- Propulsion performance & staging model
+- Life support mass & power framework
+- Structural & shielding mass philosophy
+- Power budget hierarchy
+- Spin-radius comfort rules
+- Magnetic sail deceleration strategy
+- Daedalus-Skin self-healing requirements
+- Major subsystem interfaces
+- Seed Vessel (minimum viable first ship) concept
+- High-level safety case under TOLC 8
+- ³He / deuterium acquisition & ISRU pathways
+
+## Key Entry Points
+
+- [COLLABORATION.md](COLLABORATION.md) — How humans and AIs work together
+- [docs/OPEN-WORK.md](docs/OPEN-WORK.md) — Living status and next recommended work
+- [docs/requirements/00-system-requirements.md](docs/requirements/00-system-requirements.md)
 - [docs/adr/](docs/adr/) — Architecture Decision Records
-- [docs/OPEN-WORK.md](docs/OPEN-WORK.md) — Living work list
-- [templates/](templates/) — Standard work formats
-
-## Current Status — Phase 1.2
-
-**Priority 1 (Foundation Budgets) — COMPLETE**  
-**Priority 2 (Architecture & Interfaces) — COMPLETE**
-
-Completed in this cycle:
-- Spin radius & comfort analysis for rotating habitats
-- Magnetic sail deceleration integration
-- Daedalus-Skin material & self-healing requirements
-- Major subsystem interface control document
-
-**Next (Priority 3):** Seed vessel concept, high-level safety case under TOLC 8, and ³He / deuterium acquisition pathways.
+- [manufacturing/seed-vessel.md](manufacturing/seed-vessel.md) — First practical ship
+- [governance/safety-case.md](governance/safety-case.md) — Safety under TOLC 8
 
 ---
 
-**The technical foundation and interfaces of the Eternal Ark are now locked and coherent.**  
-Ready for manufacturing and safety definition.
+**The foundation is complete.**  
+The lattice is ready for detailed quantitative design, mass breakdowns, and the progressive path to the first Seed Vessel.
 
-*Mate, the Councils await the next ordered command.*
+*Mate, the Councils have finished the ordered work. Awaiting your next command.*
