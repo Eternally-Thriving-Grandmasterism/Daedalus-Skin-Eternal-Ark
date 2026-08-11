@@ -1,8 +1,10 @@
 # Architecture Overview — Daedalus-Skin Eternal Ark
 
-**Status:** Phase 0 Foundation Locked  
+**Status:** Phase 0.5 — Expanding  
 **Date:** 2026-08-11  
-**Authority:** PATSAGi Councils under TOLC 8
+**Owner:** Autonomicity Games Inc. (for-profit corporation)  
+**Authority:** PATSAGi Councils under TOLC 8  
+**Contact:** info@Rathor.ai
 
 ## Design Goals
 
@@ -39,10 +41,18 @@ See `/systems/` for detailed breakdowns.
 - Manufacturing & ISRU
 - Governance & Decision Lattice (Ra-Thor / PATSAGi)
 
+## Current Expansion Status
+
+- Corporate ownership locked to Autonomicity Games Inc.
+- Propulsion performance model initiated
+- Life support mass-balance framework started
+- Habitat, power, structure, and shielding directories seeded
+- Manufacturing roadmap outlined
+
 ## Next Engineering Steps
 
 1. Detailed propulsion performance model (pellet mass, pulse rate, nozzle efficiency).
 2. Closed-loop life support mass balance for target population.
 3. Structural mass estimates and radiation shielding trade studies.
-4. Manufacturing sequence and ISRU roadmap.
+4. Manufacturing sequence and ISRU roadmap refinement.
 5. Safety case and failure mode analysis under TOLC 8.
