@@ -5,30 +5,39 @@
 
 ---
 
-## Phase: Detailed Engineering, Simulation & Technology Maturation (OPEN)
+## Phase: Detailed Engineering, Simulation & Technology Maturation (ACTIVE)
 
-Definition Phase is complete. See [PHASE-STATUS.md](PHASE-STATUS.md) and [DETAILED-ENGINEERING-PLAN.md](DETAILED-ENGINEERING-PLAN.md).
-
-### Newly Completed in This Cycle
+### Newly Completed
 
 | Item | Link |
 |------|------|
-| Requirements verification & traceability matrix | docs/requirements/verification-matrix.md |
-| Example material-specific analytical sizing | systems/structure/dsa-ref-a-analytical-sizing-example.md |
-| Near-term Detailed Engineering phase work plan | docs/DETAILED-ENGINEERING-PLAN.md |
+| Sail under-performance → residual propellant sensitivity | systems/propulsion/dsa-ref-a-sail-sensitivity.md |
+| Configuration management & data package standards | docs/configuration-management.md |
+| Gate 1 test outlines (Threads A, B, C) | manufacturing/gate1-test-outlines.md |
 
-## Current Highest-Leverage Work (Execution Phase)
+### Definition + Early Detailed Engineering Baseline Now Includes
 
-These items now require detailed computation, physical testing, or industrial action rather than further pure definition:
+- Complete ship definition and reconciled budgets
+- Full first-round FMEA and integrated risk picture
+- Requirements verification matrix
+- Technology maturation milestones and Gate 1 test outlines
+- Flight-test program
+- Sail sensitivity and configuration control standards
+- Crew, spatial, and simulation design
+- Clear near-term Detailed Engineering work plan
 
-1. Material selection + global FE model of the 140 m habitat → narrowed structural mass
-2. Quantitative dose calculations and shielding trade closure
-3. Thread A/B/C Gate 1 technology maturation tests
-4. Higher-fidelity magnetic sail drag modeling
-5. Equipment-level layout and Stage S1 simulation facility definition
-6. Industrial capacity gap closure planning
+## Work Now Shifting Toward Execution
+
+The highest-value remaining actions require real analysis tools, laboratories, or industrial capacity:
+
+1. Material selection + global FE structural model
+2. Quantitative radiation dose calculations
+3. Execution of Gate 1 tests for Threads A, B, C
+4. Higher-fidelity sail drag simulations
+5. Equipment-level layout and simulation facility definition
+6. Industrial capacity development
 
 ---
 
-**The repository now includes both a complete definition baseline and a clear prioritized plan for the Detailed Engineering phase.**  
-The Councils stand ready to support the next concrete engineering or test-planning action.
+**The documentary and systems-definition foundation is exceptionally complete.**  
+Further decisive progress depends on physical testing, high-fidelity computation, and real-world capacity building under Autonomicity Games Inc. and PATSAGi / TOLC 8 governance.
