@@ -5,33 +5,37 @@
 
 ---
 
-## Core Engineering Baseline: Mature
+## Comprehensive Baseline Status: Strongly Mature
 
-### Completed in This Cycle
+### Newly Completed
 
 | Item | Link |
 |------|------|
-| Material-specific structural sizing & FE direction | systems/structure/dsa-ref-a-material-sizing.md |
-| Quantitative magnetic sail drag guidance | systems/propulsion/dsa-ref-a-magsail-drag.md |
-| Progressive flight-test & demonstration program | manufacturing/flight-test-program.md |
-| Magnetic sail FMEA | governance/dsa-ref-a-fmea-magsail.md |
+| Detailed technology maturation milestones with success metrics | manufacturing/technology-maturation-milestones.md |
+| Crew systems, psychological & social design | systems/habitat/dsa-ref-a-crew-systems.md |
 
-### Full First-Round FMEA Coverage Now Complete
+### Full Core Coverage Now Includes
 
-- Propulsion & Power
-- Rotating Habitat & Spin
-- Life Support
-- Magnetic Sail
+- Architecture, requirements, ADRs, interfaces
+- Reference Seed Vessel definition and reconciled mass budget
+- Propulsion, life support, structure, shielding, sail models
+- Complete first-round FMEA (Propulsion, Habitat, Life Support, Sail)
+- Industrial capacity analysis
+- Integrated risk picture
+- Progressive flight-test program
+- Technology maturation plan + detailed milestones
+- Crew / psychological / social design
 
-## Remaining High-Value Work (Increasingly Specialized)
+## Remaining Work (Highly Specialized / Next-Phase)
 
-1. Actual FE confirmation runs and material-specific mass numbers
-2. Validated magnetic sail drag curves from simulation or proxy experiments
-3. Detailed milestone-by-milestone technology maturation schedule with success metrics
-4. Further refinement of the reconciled mass budget as new numbers arrive
-5. Crew systems, psychological, and social design detail for the 300-person Seed Vessel
+1. Actual FE structural confirmation and material-specific mass numbers
+2. Validated magnetic sail drag simulations or proxy experimental data
+3. Further mass budget tightening as new numbers arrive
+4. Detailed internal layout and volume allocation for the 300-person habitat
+5. Long-duration simulation campaign design for crew selection and training
+6. Eventual physical technology demonstration execution
 
 ---
 
-**The Reference Seed Vessel now possesses a mature core engineering, safety, industrial, and flight-test baseline.**  
-Further work is specialized refinement and eventual physical technology demonstration.
+**The Daedalus-Skin Eternal Ark repository now contains a comprehensive, coherent, and actionable engineering baseline for the Reference Seed Vessel.**  
+Further progress is primarily detailed analysis, simulation, and physical testing rather than architectural definition.
