@@ -4,7 +4,8 @@
 **Date:** 2026-08-11  
 **Owner:** Autonomicity Games Inc. (for-profit corporation)  
 **Authority:** PATSAGi Councils under TOLC 8  
-**Contact:** info@Rathor.ai
+**Contact:** info@Rathor.ai  
+**License:** Proprietary — All Rights Reserved
 
 ## Design Goals
 
@@ -41,9 +42,14 @@ See `/systems/` for detailed breakdowns.
 - Manufacturing & ISRU
 - Governance & Decision Lattice (Ra-Thor / PATSAGi)
 
+## Intellectual Property
+
+All content is proprietary and owned exclusively by Autonomicity Games Inc. No third-party commercial use, reproduction, or distribution is permitted without prior written authorization. Credit is required for any authorized reference or use.
+
 ## Current Expansion Status
 
 - Corporate ownership locked to Autonomicity Games Inc.
+- Proprietary (All Rights Reserved) license in force
 - Propulsion performance model initiated
 - Life support mass-balance framework started
 - Habitat, power, structure, and shielding directories seeded
