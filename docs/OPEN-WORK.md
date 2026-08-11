@@ -5,31 +5,27 @@
 
 ---
 
-## Foundation + Reference Design: COMPLETE
+## Foundation + Reference Design + First Quantitative Layer: COMPLETE
 
-All Priority 1–3 work and the maximal-leverage sequence (WP-12 to WP-15) are finished. The Reference Seed Vessel (DSA-Ref-A) is locked.
-
-## Detailed Design Progress (Current)
-
-Newly completed quantitative baselines against DSA-Ref-A:
+## Deeper Refinement Layer (Just Completed)
 
 | Item | Status | Link |
 |------|--------|------|
-| Multi-stage propellant mass model | Complete | manufacturing/dsa-ref-a-propellant-model.md |
-| Life support area & power tables (~300 people) | Complete | systems/life_support/dsa-ref-a-life-support-tables.md |
-| Magnetic sail parametric sizing | Complete | systems/propulsion/dsa-ref-a-magsail-sizing.md |
-| Refined structure & shielding guidance | Complete | systems/structure/dsa-ref-a-structure-shielding.md |
+| Bottom-up structural mass framework | Complete | systems/structure/dsa-ref-a-bottom-up-mass.md |
+| Higher-fidelity shielding model guidance | Complete | systems/shielding/dsa-ref-a-shielding-model.md |
+| Expanded FMEA outline & critical failure modes | Complete | governance/dsa-ref-a-fmea-outline.md |
+| Detailed orbital assembly sequence | Complete | manufacturing/dsa-ref-a-assembly-sequence.md |
 
-## Highest-Leverage Remaining Work
+## Current Highest-Leverage Remaining Work
 
-1. Bottom-up structural mass estimate for a ~140 m rotating habitat
-2. More precise passive + active shielding mass vs. dose model
-3. Higher-fidelity magnetic sail drag calculations
-4. Expanded quantitative risk assessment / FMEA
-5. Orbital assembly sequence and industrial capacity requirements
-6. Progressive technology maturation & test plan linked to the roadmap
+1. Actual analytical / FE-level structural mass numbers for the 140 m habitat (using the new framework)
+2. Quantitative dose vs. areal density and active/passive shielding trade for DSA-Ref-A
+3. Higher-fidelity magnetic sail drag performance estimates
+4. Population of full FMEA tables for the top three critical subsystems
+5. Industrial capacity and launch/in-space manufacturing requirements analysis
+6. Technology maturation test plan linked to the development roadmap
 
 ---
 
-**The Reference Seed Vessel now has usable quantitative models for propulsion, life support, structure/shielding, and deceleration.**  
-Further work can proceed as focused, high-value refinements against this fixed target.
+**The Reference Seed Vessel now has structural, shielding, safety (FMEA), and assembly depth.**  
+Further work is increasingly specific and quantitative against a stable target.
