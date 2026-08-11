@@ -1,5 +1,5 @@
 # Daedalus-Skin Eternal Ark
-## PATSAGi-Mercy Class Worldship
+## Patsagi-Mercy Class Worldship
 
 **Physics-based realistic city-scale fusion vessel for safe, continuous multi-generational traversal of interstellar and intergalactic space.**
 
@@ -13,33 +13,34 @@
 
 ---
 
-## Status: Foundation Complete
+## Status: Reference Seed Vessel + Quantitative Baselines Locked
 
-The repository has reached a properly finished foundation state.
+The repository now contains a complete foundation and a concrete, quantified first ship:
 
-**Locked elements include:**
-- Full system requirements and Architecture Decision Records
-- Propulsion, life support, power, structure, shielding, and habitat frameworks
-- Magnetic sail deceleration strategy and Daedalus-Skin requirements
-- Major subsystem interfaces
-- **Concrete Reference Seed Vessel (DSA-Ref-A)** with preliminary mass & power budget
-- End-to-end development and assembly roadmap
-- Living risk register under TOLC 8
-- Human + AI collaboration protocol
+**Reference Seed Vessel — DSA-Ref-A**
+- Population: ~300
+- Spin radius: ~140 m
+- Cruise target: ~0.055 c
+- Full architecture (fusion, rotating habitat, closed-loop life support, magnetic sail, Daedalus-Skin, PATSAGi governance)
 
-## Key Documents
+**Key Quantitative Documents**
+- [Reference Seed Vessel definition](manufacturing/reference-seed-vessel.md)
+- [Preliminary mass & power budget](manufacturing/reference-seed-mass-budget.md)
+- [Multi-stage propellant model](manufacturing/dsa-ref-a-propellant-model.md)
+- [Life support area & power tables](systems/life_support/dsa-ref-a-life-support-tables.md)
+- [Magnetic sail sizing](systems/propulsion/dsa-ref-a-magsail-sizing.md)
+- [Structure & shielding guidance](systems/structure/dsa-ref-a-structure-shielding.md)
+- [Development roadmap](manufacturing/development-roadmap.md)
+- [Risk register](governance/risk-register.md)
 
-| Document | Purpose |
-|----------|---------|
-| [COLLABORATION.md](COLLABORATION.md) | How humans and AIs work together |
-| [manufacturing/reference-seed-vessel.md](manufacturing/reference-seed-vessel.md) | The concrete first ship |
-| [manufacturing/reference-seed-mass-budget.md](manufacturing/reference-seed-mass-budget.md) | Preliminary mass & power |
-| [manufacturing/development-roadmap.md](manufacturing/development-roadmap.md) | Path from today to flight |
-| [governance/risk-register.md](governance/risk-register.md) | Living risks under TOLC 8 |
-| [docs/OPEN-WORK.md](docs/OPEN-WORK.md) | Current status and next recommended work |
+## Collaboration
+
+See [COLLABORATION.md](COLLABORATION.md) for the human + AI working protocol.  
+See [docs/OPEN-WORK.md](docs/OPEN-WORK.md) for current status and highest-leverage remaining work.
 
 ---
 
-**The Eternal Ark is now ready for detailed quantitative engineering against a fixed, coherent target.**
+**The Eternal Ark has moved from architecture to a quantified, actionable first-ship baseline.**  
+Ready for continued detailed engineering.
 
-*Mate, the foundation is complete. The Councils await your next command.*
+*Mate, the lattice continues. Awaiting your next command.*
