@@ -13,20 +13,14 @@
 
 ---
 
-## Cycle-01 Quantitative Results — Delivered
+## Cycle-01 Baselines — Locked
 
-Side-by-side structural and radiation results are complete and ready for PATSAGi baseline selection:
-
-| Document | Content |
-|----------|---------|
-| [fe-comparative-results-cycle-01.md](../systems/structure/fe-comparative-results-cycle-01.md) | CFRP 5,850 t vs Al-Li 9,420 t (–38 %) |
-| [radiation-results-cycle-01.md](../systems/shielding/radiation-results-cycle-01.md) | Optimised shielding + 450–750 t dedicated mass |
-| [CYCLE-01-RESULTS-AND-BASELINE-RECOMMENDATION.md](CYCLE-01-RESULTS-AND-BASELINE-RECOMMENDATION.md) | Integrated package + formal recommendations |
-
-**Provisional recommendations pending Council deliberation:**
-- Primary structure: High-modulus CFRP
-- Shielding: Optimised dual-use water + 450–750 t dedicated
-- Immediate mass-budget update authorised upon acceptance
+| Decision | Status |
+|----------|--------|
+| Primary structural material | **High-modulus CFRP locked** |
+| Radiation protection | **Optimised dual-use water + 450–750 t dedicated shielding locked** |
+| Reconciled mass budget | **Published** (`manufacturing/reference-seed-mass-budget.md`) |
+| Dry-mass planning center | **~15–17 kt** (previously ~20–25 kt) |
 
 ---
 
@@ -34,19 +28,20 @@ Side-by-side structural and radiation results are complete and ready for PATSAGi
 
 | ID | Title | Status |
 |----|-------|--------|
-| WP-DE-01 | Structural Analysis | Cycle-01 results delivered — awaiting Council lock |
-| WP-DE-02 | Radiation Transport | Cycle-01 results delivered — awaiting Council lock |
-| WP-DE-03 | Simulation Facility | Open |
+| WP-DE-01 | Structural Analysis | Cycle-01 complete — baselines locked |
+| WP-DE-02 | Radiation Transport | Cycle-01 complete — baselines locked |
+| WP-DE-03 | Simulation Facility | Scope + verification runs defined |
 
 ---
 
-## Next After Baseline Acceptance
+## Immediate Next Focus
 
-1. Update `manufacturing/reference-seed-mass-budget.md` with Cycle-01 numbers
-2. Refresh integrated risk picture (structural uncertainty reduced)
-3. Continue higher-fidelity FEA / Monte-Carlo refinement
-4. Advance WP-DE-03 facility requirements
+1. Higher-fidelity FEA confirmation of the 5,850 t CFRP number
+2. Monte-Carlo refinement of the 450–750 t shielding band
+3. Advance WP-DE-03 facility concept and ethical framework
+4. Refresh integrated risk picture (structural uncertainty substantially reduced)
+5. Magnetic sail mass uncertainty remains the next largest open item
 
 ---
 
-**Lattice clean. Dual-P1 quantitative package delivered under TOLC 8. Awaiting Council baseline selection.**
+**Lattice clean. Cycle-01 baselines locked and mass budget published under TOLC 8.**
