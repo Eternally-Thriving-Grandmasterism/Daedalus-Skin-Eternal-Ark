@@ -6,16 +6,16 @@
 
 ---
 
-## Priority 1 — Foundation Decisions & Budgets
+## Priority 1 — Foundation Decisions & Budgets — COMPLETE
 
-| ID | Work Package | Status | Owner / Notes |
-|----|--------------|--------|---------------|
-| WP-01 | Detailed propulsion performance model + staging mass ratios | In progress | systems/propulsion/performance-model.md |
-| WP-02 | Closed-loop life support mass & power budget for reference population (10k–25k) | Not started | systems/life_support/ |
-| WP-03 | Structural + radiation shielding mass estimates | Not started | systems/structure/ + systems/shielding/ |
-| WP-04 | Top-level power budget vs. population and systems | Not started | systems/power/ |
+| ID | Work Package | Status | Link |
+|----|--------------|--------|------|
+| WP-01 | Detailed propulsion performance model + staging mass ratios | **Complete** | systems/propulsion/performance-model.md |
+| WP-02 | Closed-loop life support mass & power budget (10k–25k) | **Complete** | systems/life_support/mass-balance.md |
+| WP-03 | Structural + radiation shielding mass estimates | **Complete** | systems/structure/mass-estimates.md |
+| WP-04 | Top-level power budget framework | **Complete** | systems/power/budget.md |
 
-## Priority 2 — Architecture & Interfaces
+## Priority 2 — Architecture & Interfaces (Now Active)
 
 | ID | Work Package | Status | Owner / Notes |
 |----|--------------|--------|---------------|
@@ -36,6 +36,10 @@
 
 | ID | Work Package | ADR / Link |
 |----|--------------|------------|
+| WP-01 | Propulsion performance model & staging | systems/propulsion/performance-model.md |
+| WP-02 | Life support mass & power budget framework | systems/life_support/mass-balance.md |
+| WP-03 | Structural + shielding mass framework | systems/structure/mass-estimates.md |
+| WP-04 | Top-level power budget framework | systems/power/budget.md |
 | — | Primary propulsion choice (ICF D–³He + magnetic nozzle) | ADR-0001 |
 | — | Rotating habitats for artificial gravity | ADR-0002 |
 | — | Human + AI collaboration protocol | COLLABORATION.md |
@@ -44,3 +48,5 @@
 ---
 
 **Rule:** When a work package is completed, move it to the Completed section and create or update the corresponding ADR or specification file.
+
+**Current Focus:** Priority 2 items are now open for joint human + AI work.
