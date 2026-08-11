@@ -5,46 +5,31 @@
 
 ---
 
-## Foundation Status: COMPLETE
+## Foundation + Reference Design: COMPLETE
 
-All Priority 1–3 work packages and the subsequent maximal-leverage sequence (WP-12 to WP-15) are finished.
+All Priority 1–3 work and the maximal-leverage sequence (WP-12 to WP-15) are finished. The Reference Seed Vessel (DSA-Ref-A) is locked.
 
-### Maximal-Leverage Sequence Results
+## Detailed Design Progress (Current)
 
-| ID | Work Package | Status | Link |
-|----|--------------|--------|------|
-| WP-12 | Concrete Reference Seed Vessel definition (DSA-Ref-A) | Complete | manufacturing/reference-seed-vessel.md |
-| WP-13 | Preliminary mass & power budget for DSA-Ref-A | Complete | manufacturing/reference-seed-mass-budget.md |
-| WP-14 | End-to-end development & assembly roadmap | Complete | manufacturing/development-roadmap.md |
-| WP-15 | Living risk register | Complete | governance/risk-register.md |
+Newly completed quantitative baselines against DSA-Ref-A:
 
----
+| Item | Status | Link |
+|------|--------|------|
+| Multi-stage propellant mass model | Complete | manufacturing/dsa-ref-a-propellant-model.md |
+| Life support area & power tables (~300 people) | Complete | systems/life_support/dsa-ref-a-life-support-tables.md |
+| Magnetic sail parametric sizing | Complete | systems/propulsion/dsa-ref-a-magsail-sizing.md |
+| Refined structure & shielding guidance | Complete | systems/structure/dsa-ref-a-structure-shielding.md |
 
-## Repository State
+## Highest-Leverage Remaining Work
 
-The Daedalus-Skin Eternal Ark repository is now in a **properly finished foundation state**:
-
-- Clear requirements and architecture decisions
-- Performance models and interfaces
-- Concrete first-ship definition with preliminary mass/power budget
-- Full development roadmap from present day to flight
-- Active risk register under TOLC 8
-- Human + AI collaboration protocol
-- Proprietary protection under Autonomicity Games Inc.
-
-## Recommended Next Work (Detailed Design Phase)
-
-The highest-value remaining work is now iterative and quantitative against the locked Reference Seed Vessel:
-
-1. Refined structural and shielding mass models for DSA-Ref-A
-2. Multi-stage propellant mass calculation with explicit tank fractions
-3. Detailed life-support area and power tables for ~300 people
-4. Magnetic sail parametric sizing for 0.05 c class deceleration
-5. Expanded FMEA / quantitative risk assessment
-6. Orbital assembly sequence and industrial capacity analysis
-
-These can be opened as new work packages by humans or AI systems at any time.
+1. Bottom-up structural mass estimate for a ~140 m rotating habitat
+2. More precise passive + active shielding mass vs. dose model
+3. Higher-fidelity magnetic sail drag calculations
+4. Expanded quantitative risk assessment / FMEA
+5. Orbital assembly sequence and industrial capacity requirements
+6. Progressive technology maturation & test plan linked to the roadmap
 
 ---
 
-**The core of the Eternal Ark is complete and ready for detailed engineering.**
+**The Reference Seed Vessel now has usable quantitative models for propulsion, life support, structure/shielding, and deceleration.**  
+Further work can proceed as focused, high-value refinements against this fixed target.
