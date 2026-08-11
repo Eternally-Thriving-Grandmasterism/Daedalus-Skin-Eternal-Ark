@@ -13,34 +13,33 @@
 
 ---
 
-## Status: Reference Seed Vessel + Quantitative Baselines Locked
+## Status: Reference Seed Vessel + Deep Refinement Layer Active
 
-The repository now contains a complete foundation and a concrete, quantified first ship:
+**Reference Seed Vessel — DSA-Ref-A** is locked and now carries detailed supporting models:
 
-**Reference Seed Vessel — DSA-Ref-A**
-- Population: ~300
-- Spin radius: ~140 m
-- Cruise target: ~0.055 c
-- Full architecture (fusion, rotating habitat, closed-loop life support, magnetic sail, Daedalus-Skin, PATSAGi governance)
+- Population ~300 | Spin radius ~140 m | Cruise ~0.055 c
 
-**Key Quantitative Documents**
-- [Reference Seed Vessel definition](manufacturing/reference-seed-vessel.md)
-- [Preliminary mass & power budget](manufacturing/reference-seed-mass-budget.md)
-- [Multi-stage propellant model](manufacturing/dsa-ref-a-propellant-model.md)
-- [Life support area & power tables](systems/life_support/dsa-ref-a-life-support-tables.md)
-- [Magnetic sail sizing](systems/propulsion/dsa-ref-a-magsail-sizing.md)
-- [Structure & shielding guidance](systems/structure/dsa-ref-a-structure-shielding.md)
-- [Development roadmap](manufacturing/development-roadmap.md)
-- [Risk register](governance/risk-register.md)
+**Core Documents**
+- [Reference Seed Vessel](manufacturing/reference-seed-vessel.md)
+- [Mass & Power Budget](manufacturing/reference-seed-mass-budget.md)
+- [Propellant Model](manufacturing/dsa-ref-a-propellant-model.md)
+- [Life Support Tables](systems/life_support/dsa-ref-a-life-support-tables.md)
+- [Bottom-up Structural Mass Framework](systems/structure/dsa-ref-a-bottom-up-mass.md)
+- [Shielding Model](systems/shielding/dsa-ref-a-shielding-model.md)
+- [Magnetic Sail Sizing](systems/propulsion/dsa-ref-a-magsail-sizing.md)
+- [Assembly Sequence](manufacturing/dsa-ref-a-assembly-sequence.md)
+- [FMEA Outline](governance/dsa-ref-a-fmea-outline.md)
+- [Development Roadmap](manufacturing/development-roadmap.md)
+- [Risk Register](governance/risk-register.md)
 
 ## Collaboration
 
-See [COLLABORATION.md](COLLABORATION.md) for the human + AI working protocol.  
-See [docs/OPEN-WORK.md](docs/OPEN-WORK.md) for current status and highest-leverage remaining work.
+[COLLABORATION.md](COLLABORATION.md) — Human + AI protocol  
+[docs/OPEN-WORK.md](docs/OPEN-WORK.md) — Current status & next highest-leverage work
 
 ---
 
-**The Eternal Ark has moved from architecture to a quantified, actionable first-ship baseline.**  
-Ready for continued detailed engineering.
+**The Eternal Ark now has structural, shielding, safety, and assembly depth on top of a quantified first-ship baseline.**  
+Ready for continued high-fidelity refinement.
 
 *Mate, the lattice continues. Awaiting your next command.*
