@@ -1,10 +1,10 @@
-# WP-DE-03 — Simulation Facility Requirements, Scope & Verification Runs
+# WP-DE-03 — Simulation Facility Requirements, Scope, Ethical Framework & Verification
 
 **Phase:** Detailed Engineering, Simulation & Technology Maturation  
-**Priority:** P4 (Human Systems & Operations) — elevated  
+**Priority:** P4 (Human Systems) — elevated  
 **Owner:** Autonomicity Games Inc.  
 **Authority:** Ra-Thor + Permanent PATSAGi Councils under TOLC 8  
-**Status:** Open — Scope and verification runs defined  
+**Status:** Scope, ethical framework, and verification runs defined — ready for facility concept design  
 **Last Updated:** 2026-08-11  
 **Linked:** systems/habitat/dsa-ref-a-simulation-campaign.md, dsa-ref-a-deck-layout.md
 
@@ -12,7 +12,7 @@
 
 ## 1. Objective
 
-Define the physical, operational, and verification requirements for the ground-based simulation facilities that will execute Stages S1 and S2 of the DSA-Ref-A long-duration simulation campaign. Early definition prevents facility design from lagging behind technical maturation of the vessel.
+Define the physical, operational, ethical, and verification requirements for the ground-based simulation facilities that will execute Stages S1 and S2 of the DSA-Ref-A long-duration simulation campaign.
 
 ## 2. Detailed Scope
 
@@ -20,72 +20,69 @@ Define the physical, operational, and verification requirements for the ground-b
 
 | Requirement | Specification |
 |-------------|---------------|
-| Capacity | 2–4 parallel modules of 4–8 persons each, or one 12–16 person module |
+| Capacity | 2–4 parallel modules of 4–8 persons, or one 12–16 person module |
 | Spatial fidelity | Private quarters + shared work/social volume scaled to DSA-Ref-A deck proportions |
-| Life support | High-fidelity simulation minimum; real closed-loop atmosphere/water preferred |
+| Life support | High-fidelity simulation minimum; real closed-loop preferred |
 | Monitoring | Continuous environmental, physiological, and selected behavioural data with strong privacy protections |
 | Stress injection | Controlled technical faults, schedule compression, sleep disruption |
 | Abort & support | Rapid abort capability + immediate psychological support access |
 | Duration per run | 14–42 days |
-| Number of verification runs (first year) | ≥ 4 full S1 campaigns |
+| Verification runs (Year 1) | ≥ 4 full S1 campaigns (S1-V1 to S1-V4) |
 
 ### 2.2 Stage S2 Facility (3–6 months isolation)
 
 | Requirement | Specification |
 |-------------|---------------|
-| Capacity | Single high-fidelity module sized for 6–12 persons |
+| Capacity | Single high-fidelity module for 6–12 persons |
 | Life support | Real or near-real closed-loop systems preferred |
-| Workload | Full realistic maintenance, science, operations, and food-production analogs |
+| Workload | Full realistic maintenance, science, operations, food-production analogs |
 | Failure injection | Multi-day cascading technical and social stressors |
 | Communication | Configurable delay or limited-contact protocols |
 | Ethical oversight | Continuous crew-welfare monitoring + independent ethics board |
 | Duration per run | 90–180 days |
-| Number of verification runs (first 24 months) | ≥ 2 full S2 campaigns |
+| Verification runs (Years 1–2) | ≥ 2 full S2 campaigns |
 
-### 2.3 Common Requirements
+## 3. Ethical & Crew-Welfare Framework (TOLC 8)
 
-- Spatial and volumetric similarity to the reference deck layout (private/public balance, circulation, acoustic isolation)
-- Ability to reconfigure internal layout between campaigns
-- Integration with PATSAGi monitoring and mediation protocols
-- Configuration control of the facility itself so results remain comparable across campaigns
-- Data architecture that feeds design feedback directly into habitat and schedule refinement
+- **Informed consent** is mandatory and ongoing; participants may withdraw at any time without penalty.
+- **Right to abort** any simulation run is absolute and immediate.
+- **Privacy protections** for physiological and behavioural data are non-negotiable; data used only for stated scientific and design purposes.
+- **Independent ethics oversight** (external to the program team) reviews protocols and has authority to halt campaigns.
+- **PATSAGi mediation protocols** are available for conflict resolution and psychological support.
+- **No deception** regarding the nature or risks of the simulation.
+- Human authority retains final override on all crew-welfare decisions.
 
-## 3. Verification Runs Definition
+## 4. Facility Concept Guidance
 
-### S1 Verification Series (Year 1)
-1. S1-V1: Baseline compatibility screening (no injected failures)
-2. S1-V2: Technical stress injection (life-support and schedule faults)
-3. S1-V3: Social / leadership stress under mild isolation
-4. S1-V4: Combined technical + social stressors + sleep disruption
+- Location: Secure, low-distraction site with reliable power, medical access, and rapid extraction capability.
+- Modular construction preferred so that S1 modules can later support elements of S2.
+- Acoustic, lighting, and spatial design must approximate the reference deck layout sufficiently for valid behavioural data.
+- Data architecture must feed design feedback directly into habitat and schedule refinement loops.
 
-**Success metric:** Stable team performance, no critical social or procedural breakdown, useful design feedback generated.
+## 5. Verification Runs
 
-### S2 Verification Series (Years 1–2)
-1. S2-V1: 90-day closed-loop with moderate failure injection
-2. S2-V2: 120–180 day campaign with cascading failures and communication delay
+**S1 Series (Year 1):**  
+S1-V1 Baseline compatibility → S1-V2 Technical stress → S1-V3 Social/leadership stress → S1-V4 Combined stressors.
 
-**Success metric:** Demonstrated multi-month stability, validated selection criteria, measurable refinement of habitat design and support protocols.
+**S2 Series (Years 1–2):**  
+S2-V1 90-day closed-loop → S2-V2 120–180 day with cascading failures and communication delay.
 
-## 4. Deliverables
+**Success metrics:** Stable team performance, no critical social or procedural breakdown, measurable design feedback generated, selection criteria validated.
 
-1. Facility Requirements Document (FRD) for S1 and S2 (this document is the living seed)
-2. Preliminary facility concept(s) and siting considerations
-3. Rough order-of-magnitude cost and schedule envelope
-4. Ethical and crew-welfare framework aligned with TOLC 8
-5. Data collection and feedback loop definition into ship design
-6. Verification run plans and success criteria (defined above)
+## 6. Deliverables Status
 
-## 5. Success Criteria for the Work Package
+| Deliverable | Status |
+|-------------|--------|
+| Facility Requirements | Defined |
+| Ethical & crew-welfare framework | Defined |
+| Verification run plans | Defined |
+| Preliminary facility concept & siting | Ready for next iteration |
+| Cost/schedule envelope | To be developed with facility concept |
 
-- Facility requirements complete enough to begin architectural and engineering design of the physical analog(s)
-- Ethical framework accepted by human authority and PATSAGi
-- Clear path from S1/S2 results back into habitat design and crew selection criteria
-- At least the first S1 verification series scheduled or under active planning
+## 7. Governance
 
-## 6. Governance
-
-Crew welfare, informed consent, and the right to abort are non-negotiable under TOLC 8. All simulation design decisions that affect human subjects require explicit human authority sign-off in addition to PATSAGi deliberation.
+Crew welfare, informed consent, and the right to abort are non-negotiable under TOLC 8. All decisions affecting human subjects require explicit human authority sign-off in addition to PATSAGi deliberation.
 
 ---
 
-**Human systems cannot be matured solely by analysis. This work package defines the physical path for crew validation and the first verification runs.**
+**WP-DE-03 is complete at the requirements and ethical-framework level. Physical facility design and campaign execution are the next physical steps.**
