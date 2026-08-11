@@ -43,6 +43,7 @@ This index provides rapid navigation across the complete baseline.
 
 ## Structure, Shielding & Habitat
 
+- [dsa-ref-a-geometry-and-loads.md](../systems/structure/dsa-ref-a-geometry-and-loads.md) — Frozen for first FE cycle
 - [dsa-ref-a-structural-mass-estimate.md](../systems/structure/dsa-ref-a-structural-mass-estimate.md)
 - [dsa-ref-a-material-sizing.md](../systems/structure/dsa-ref-a-material-sizing.md)
 - [dsa-ref-a-analytical-sizing-example.md](../systems/structure/dsa-ref-a-analytical-sizing-example.md)
@@ -85,12 +86,14 @@ This index provides rapid navigation across the complete baseline.
 ## Materials
 
 - [daedalus-skin-requirements.md](../materials/daedalus-skin-requirements.md)
-- [habitat-structure-material-candidates.md](../materials/habitat-structure-material-candidates.md) — Short-list for WP-DE-01
+- [habitat-structure-material-candidates.md](../materials/habitat-structure-material-candidates.md)
+- [material-selection-recommendation-wp-de-01.md](../materials/material-selection-recommendation-wp-de-01.md) — Provisional PATSAGi stance
 
 ## Detailed Engineering Work Packages
 
 - [WP-DE-01 Structural Analysis](work-packages/WP-DE-01-structural-analysis.md)
 - [WP-DE-02 Radiation Dose](work-packages/WP-DE-02-radiation-dose.md)
+- [WP-DE-03 Simulation Facility](work-packages/WP-DE-03-simulation-facility.md)
 - [Work Packages Index](work-packages/README.md)
 
 ---
