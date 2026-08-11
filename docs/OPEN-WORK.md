@@ -9,7 +9,8 @@
 ## Phase Status
 
 **DEFINITION PHASE: COMPLETE**  
-**DETAILED ENGINEERING, SIMULATION & TECHNOLOGY MATURATION PHASE: OPEN**
+**DETAILED ENGINEERING (DELIBERATIVE PORTION): COMPLETE**  
+**PHYSICAL TESTING & HIGHER-FIDELITY COMPUTATION: OPEN**
 
 ---
 
@@ -29,35 +30,37 @@
 
 ---
 
-## Work Package Status
+## Work Package Status (All Deliberative Work Closed)
 
 | ID | Title | Status |
 |----|-------|--------|
 | WP-DE-01 | Structural Analysis | Complete — locked |
 | WP-DE-02 | Radiation Transport | Complete — locked |
-| WP-DE-03 | Simulation Facility | Scope + verification runs defined |
+| WP-DE-03 | Simulation Facility | Requirements + ethical framework complete |
 | WP-MS-01 | Magnetic Sail Mass & Architecture | Complete — locked |
 | WP-MS-02 | Drag Models, Interfaces & Sensitivity | Complete — locked |
 | WP-MS-03 | Residual Fusion Integration | Complete — locked |
-| **WP-MB-02** | **Mass Budget Integration** | **Complete — budget & timeline published** |
+| WP-MB-02 | Mass Budget Integration | Complete — locked |
 
 ---
 
-## Key Published Documents (WP-MB-02)
+## What Remains (Requires Physical Reality or External Computation)
 
-- `manufacturing/reference-seed-mass-budget.md` — Fully updated dry/wet mass with residual propellant
-- `manufacturing/dsa-ref-a-full-propellant-and-timeline.md` — Full allocation + acceleration/deceleration timelines
-
----
-
-## Immediate Next Focus
-
-1. Refresh integrated risk picture against the fully locked mass and performance baselines
-2. Continue WP-DE-03 simulation facility concept and ethical framework
-3. Gate E1 magnetic-sail subscale deployment planning
-4. Higher-fidelity confirmation of structural and radiation numbers
-5. Exhaust-velocity and tank-fraction maturation (largest remaining performance uncertainty)
+1. Higher-fidelity FEA confirmation of the 5,850 t CFRP number
+2. Monte-Carlo radiation transport confirmation of the 450–750 t shielding band
+3. Physical Gate 1 execution (Threads A, B, C)
+4. Gate E1 magnetic-sail subscale deployment & stability tests
+5. Realization of simulation facilities and S1/S2 campaign execution
+6. Exhaust-velocity and tank-fraction maturation
+7. Industrial capacity and ³He acquisition infrastructure
 
 ---
 
-**Lattice clean. All major mass, propulsion, sail, residual-fusion, and timeline baselines are now consistent and locked under TOLC 8.**
+## Authoritative Snapshot
+
+See [CURRENT-BASELINE-SUMMARY.md](CURRENT-BASELINE-SUMMARY.md) for the single-page locked baseline.
+
+---
+
+**All work achievable by pure deliberation and systems engineering under TOLC 8 is complete.**  
+The lattice is ready for physical testing and higher-fidelity computation.
