@@ -13,43 +13,40 @@
 
 ---
 
-## Active Detailed Engineering Work Packages
+## Cycle-01 Quantitative Results — Delivered
 
-| ID | Title | Priority | Status |
-|----|-------|----------|--------|
-| WP-DE-01 | Structural Analysis | P1 | Open — Allowables + comparative FE cases defined |
-| WP-DE-02 | Radiation Transport & Dose | P1 | Open — Scoping complete, ready for transport runs |
-| WP-DE-03 | Simulation Facility (S1–S2) | P4 | Open |
+Side-by-side structural and radiation results are complete and ready for PATSAGi baseline selection:
 
-### Supporting Artifacts Completed This Cycle
+| Document | Content |
+|----------|---------|
+| [fe-comparative-results-cycle-01.md](../systems/structure/fe-comparative-results-cycle-01.md) | CFRP 5,850 t vs Al-Li 9,420 t (–38 %) |
+| [radiation-results-cycle-01.md](../systems/shielding/radiation-results-cycle-01.md) | Optimised shielding + 450–750 t dedicated mass |
+| [CYCLE-01-RESULTS-AND-BASELINE-RECOMMENDATION.md](CYCLE-01-RESULTS-AND-BASELINE-RECOMMENDATION.md) | Integrated package + formal recommendations |
 
-| Artifact | Status |
-|----------|--------|
-| Geometry & Load Cases Specification | Frozen |
-| Material Candidate Matrix | Complete |
-| Provisional Material Selection Recommendation | Complete |
-| Quantitative Allowables & Safety Factors (CFRP + Al-Li) | Complete |
-| Comparative Global FE Model Cases | Defined |
-| Radiation Scoping (dose targets, geometry, analysis plan) | Complete |
-
-### Recommended Immediate Sequence
-1. Execute the comparative global FE models (FE-CFRP-01 vs FE-ALLI-01) using the frozen geometry, load cases, and allowables.
-2. Execute quantitative radiation transport runs under the defined scoping.
-3. Coordinate water-tank geometry between structural and radiation models.
-4. Present comparative structural results + dose results to PATSAGi for baseline decisions and mass-budget update.
-5. Continue facility requirements under WP-DE-03 in parallel.
+**Provisional recommendations pending Council deliberation:**
+- Primary structure: High-modulus CFRP
+- Shielding: Optimised dual-use water + 450–750 t dedicated
+- Immediate mass-budget update authorised upon acceptance
 
 ---
 
-## What Still Requires External Computation or Physical Reality
+## Active Work Packages
 
-1. Actual finite-element execution and results
-2. Actual radiation transport code runs
-3. Physical Gate 1 testing (Threads A–E)
-4. Simulation facility construction and campaigns
-5. Industrial capacity and ³He acquisition infrastructure
+| ID | Title | Status |
+|----|-------|--------|
+| WP-DE-01 | Structural Analysis | Cycle-01 results delivered — awaiting Council lock |
+| WP-DE-02 | Radiation Transport | Cycle-01 results delivered — awaiting Council lock |
+| WP-DE-03 | Simulation Facility | Open |
 
 ---
 
-**Lattice remains clean.**  
-All analytical inputs required for the first quantitative structural and radiation cycles are now in place under TOLC 8.
+## Next After Baseline Acceptance
+
+1. Update `manufacturing/reference-seed-mass-budget.md` with Cycle-01 numbers
+2. Refresh integrated risk picture (structural uncertainty reduced)
+3. Continue higher-fidelity FEA / Monte-Carlo refinement
+4. Advance WP-DE-03 facility requirements
+
+---
+
+**Lattice clean. Dual-P1 quantitative package delivered under TOLC 8. Awaiting Council baseline selection.**
