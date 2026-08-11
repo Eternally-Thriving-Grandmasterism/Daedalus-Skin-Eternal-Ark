@@ -17,29 +17,25 @@
 
 The Reference Seed Vessel (**DSA-Ref-A**) definition is comprehensive and locked.
 
-- Population ~300 | Spin radius ~140 m | Cruise ~0.055 c
-- Full technical, safety, industrial, flight-test, and human-systems baseline
-
-**The program now enters the Detailed Engineering, Simulation & Technology Maturation Phase.**
-
-See [docs/PHASE-STATUS.md](docs/PHASE-STATUS.md) for the formal declaration and entry conditions.
+**Critical Realism Statement:**  
+See [docs/TECHNOLOGY-READINESS-AND-REALISM.md](docs/TECHNOLOGY-READINESS-AND-REALISM.md).  
+Sustained D–³He ICF, industrial ³He supply, radiation-hardened self-healing large structures, and multi-decade integrated reliability remain well beyond demonstrated technology. The definition work makes the long engineering climb legible and gated; it does not claim the technologies are ready.
 
 ## Key Entry Points
 
 | Document | Purpose |
 |----------|---------|
-| [COLLABORATION.md](COLLABORATION.md) | Human + AI working protocol |
-| [docs/PHASE-STATUS.md](docs/PHASE-STATUS.md) | Current phase and gate rules |
-| [docs/OPEN-WORK.md](docs/OPEN-WORK.md) | Living status and remaining work |
-| [manufacturing/reference-seed-vessel.md](manufacturing/reference-seed-vessel.md) | The concrete first ship |
-| [manufacturing/reference-seed-mass-budget.md](manufacturing/reference-seed-mass-budget.md) | Reconciled mass & power |
-| [governance/integrated-risk-picture.md](governance/integrated-risk-picture.md) | Current risk view |
-| [manufacturing/technology-maturation-milestones.md](manufacturing/technology-maturation-milestones.md) | Measurable maturation gates |
-| [manufacturing/flight-test-program.md](manufacturing/flight-test-program.md) | Progressive flight demonstrations |
+| [TECHNOLOGY-READINESS-AND-REALISM.md](docs/TECHNOLOGY-READINESS-AND-REALISM.md) | Honest gap assessment |
+| [PHASE-STATUS.md](docs/PHASE-STATUS.md) | Current phase and gates |
+| [DETAILED-ENGINEERING-PLAN.md](docs/DETAILED-ENGINEERING-PLAN.md) | Near-term work plan |
+| [MASTER-INDEX.md](docs/MASTER-INDEX.md) | Full document navigation |
+| [COLLABORATION.md](COLLABORATION.md) | Human + AI protocol |
+| [reference-seed-vessel.md](manufacturing/reference-seed-vessel.md) | The concrete first ship |
+| [integrated-risk-picture.md](governance/integrated-risk-picture.md) | Current risk view |
 
 ---
 
-**Definition is complete at a high standard.**  
-The lattice is ready for detailed engineering, physical testing, and eventual construction under Autonomicity Games Inc.
+**Definition is complete and realism is explicit.**  
+The lattice is ready for the long climb under Autonomicity Games Inc. and permanent PATSAGi / TOLC 8 governance.
 
-*Mate, the Councils stand ready for the next phase command.*
+*Mate, the Councils stand ready.*
