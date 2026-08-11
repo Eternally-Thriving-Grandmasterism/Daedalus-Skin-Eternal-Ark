@@ -5,31 +5,33 @@
 
 ---
 
-## Recently Completed
+## Core Engineering Baseline: Mature
+
+### Completed in This Cycle
 
 | Item | Link |
 |------|------|
-| Life Support FMEA (biological + physicochemical) | governance/dsa-ref-a-fmea-life-support.md |
-| Industrial capacity & in-space manufacturing analysis | manufacturing/industrial-capacity-analysis.md |
-| Integrated risk picture (post full first-round FMEA) | governance/integrated-risk-picture.md |
-| Reconciled top-level mass budget | manufacturing/reference-seed-mass-budget.md |
-| Habitat Spin FMEA | governance/dsa-ref-a-fmea-habitat.md |
+| Material-specific structural sizing & FE direction | systems/structure/dsa-ref-a-material-sizing.md |
+| Quantitative magnetic sail drag guidance | systems/propulsion/dsa-ref-a-magsail-drag.md |
+| Progressive flight-test & demonstration program | manufacturing/flight-test-program.md |
+| Magnetic sail FMEA | governance/dsa-ref-a-fmea-magsail.md |
 
-## FMEA Coverage Now Complete for Core Systems
+### Full First-Round FMEA Coverage Now Complete
 
 - Propulsion & Power
 - Rotating Habitat & Spin
 - Life Support
+- Magnetic Sail
 
-## Highest-Leverage Remaining Work
+## Remaining High-Value Work (Increasingly Specialized)
 
-1. Material-specific structural sizing + early FE confirmation
-2. Quantitative magnetic sail drag curves vs. plasma density
-3. Progressive flight-test / demonstration program detail
-4. Magnetic sail deployment & operation FMEA
-5. Updated technology maturation milestones linked to the new integrated risk picture
+1. Actual FE confirmation runs and material-specific mass numbers
+2. Validated magnetic sail drag curves from simulation or proxy experiments
+3. Detailed milestone-by-milestone technology maturation schedule with success metrics
+4. Further refinement of the reconciled mass budget as new numbers arrive
+5. Crew systems, psychological, and social design detail for the 300-person Seed Vessel
 
 ---
 
-**Core safety analysis for the three most critical system clusters is now complete, industrial prerequisites are explicit, and the risk picture is integrated.**  
-The program is in a strong position for further high-fidelity engineering.
+**The Reference Seed Vessel now possesses a mature core engineering, safety, industrial, and flight-test baseline.**  
+Further work is specialized refinement and eventual physical technology demonstration.
