@@ -13,17 +13,19 @@
 
 ---
 
-## Locked Baselines
+## Fully Locked Baselines
 
-| Decision | Status |
-|----------|--------|
-| Primary structural material | High-modulus CFRP locked (5,850 t) |
-| Radiation protection | Dual-use water + 450–750 t dedicated locked |
-| Magnetic sail architecture | MS-B multi-loop array locked |
-| Magnetic sail mass | 550–750 t locked & performance-confirmed |
-| Residual fusion reserve (low-density) | **1,800–3,500 t propellant + 250–500 t tankage locked** |
-| Reconciled mass budget | Published |
-| Dry-mass planning center | ~15–17 kt |
+| System | Locked Value |
+|--------|--------------|
+| Primary structure | High-modulus CFRP — 5,850 t |
+| Dedicated shielding | 450–750 t |
+| Magnetic sail | MS-B — 550–750 t |
+| Residual fusion propellant | 1,800–3,500 t + 250–500 t tankage |
+| Dry-mass planning center | ~15.5–16.5 kt |
+| Total wet mass band | ~85,000–145,000 t |
+| Boost duration | 2.5–4.5 years |
+| Deceleration (nominal) | 15–30 years |
+| Deceleration (low-density) | 25–40 years |
 
 ---
 
@@ -36,28 +38,26 @@
 | WP-DE-03 | Simulation Facility | Scope + verification runs defined |
 | WP-MS-01 | Magnetic Sail Mass & Architecture | Complete — locked |
 | WP-MS-02 | Drag Models, Interfaces & Sensitivity | Complete — locked |
-| **WP-MS-03** | **Residual Fusion Integration** | **Complete — Cycle-01 delivered** |
+| WP-MS-03 | Residual Fusion Integration | Complete — locked |
+| **WP-MB-02** | **Mass Budget Integration** | **Complete — budget & timeline published** |
 
 ---
 
-## WP-MS-03 Cycle-01 Outcomes
+## Key Published Documents (WP-MB-02)
 
-- Residual propellant sized for low-density (0.05 cm⁻³) shortfall: **1,800–3,500 t** effective + tankage
-- Explicit handoff criteria defined (velocity–time, density, sail-health, combined)
-- Combined deceleration timeline: 15–30 years (nominal) / 25–40 years (low-density with residual)
-- **No increase required** to the locked 550–750 t sail band
-- Document: `systems/propulsion/residual-fusion-magsail-integration-cycle-01.md`
+- `manufacturing/reference-seed-mass-budget.md` — Fully updated dry/wet mass with residual propellant
+- `manufacturing/dsa-ref-a-full-propellant-and-timeline.md` — Full allocation + acceleration/deceleration timelines
 
 ---
 
 ## Immediate Next Focus
 
-1. Update propellant model and top-level mass budget with the residual fusion allocation
-2. Refresh integrated risk picture (sail + residual performance risk now bounded)
-3. Continue WP-DE-03 facility concept and ethical framework
-4. Gate E1 subscale deployment planning
-5. Higher-fidelity MHD / kinetic plasma model refinement (future)
+1. Refresh integrated risk picture against the fully locked mass and performance baselines
+2. Continue WP-DE-03 simulation facility concept and ethical framework
+3. Gate E1 magnetic-sail subscale deployment planning
+4. Higher-fidelity confirmation of structural and radiation numbers
+5. Exhaust-velocity and tank-fraction maturation (largest remaining performance uncertainty)
 
 ---
 
-**Lattice clean. Magnetic sail system is fully integrated with residual fusion under TOLC 8. Primary deceleration performance risk is closed.**
+**Lattice clean. All major mass, propulsion, sail, residual-fusion, and timeline baselines are now consistent and locked under TOLC 8.**
