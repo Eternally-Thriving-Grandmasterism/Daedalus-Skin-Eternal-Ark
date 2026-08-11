@@ -5,48 +5,46 @@
 
 ---
 
-## Priority 1 — Foundation Decisions & Budgets — COMPLETE
-## Priority 2 — Architecture & Interfaces — COMPLETE
-## Priority 3 — Manufacturing & Safety — COMPLETE
+## Foundation Status: COMPLETE
+
+All Priority 1–3 work packages and the subsequent maximal-leverage sequence (WP-12 to WP-15) are finished.
+
+### Maximal-Leverage Sequence Results
 
 | ID | Work Package | Status | Link |
 |----|--------------|--------|------|
-| WP-09 | Seed vessel concept | Complete | manufacturing/seed-vessel.md |
-| WP-10 | High-level safety case & critical failure modes | Complete | governance/safety-case.md |
-| WP-11 | ³He / deuterium acquisition & ISRU pathways | Complete | manufacturing/isru-fuel.md |
+| WP-12 | Concrete Reference Seed Vessel definition (DSA-Ref-A) | Complete | manufacturing/reference-seed-vessel.md |
+| WP-13 | Preliminary mass & power budget for DSA-Ref-A | Complete | manufacturing/reference-seed-mass-budget.md |
+| WP-14 | End-to-end development & assembly roadmap | Complete | manufacturing/development-roadmap.md |
+| WP-15 | Living risk register | Complete | governance/risk-register.md |
 
 ---
 
-## Current Status
+## Repository State
 
-**All originally defined Priority 1–3 work packages are complete.**
+The Daedalus-Skin Eternal Ark repository is now in a **properly finished foundation state**:
 
-The Eternal Ark now possesses:
+- Clear requirements and architecture decisions
+- Performance models and interfaces
+- Concrete first-ship definition with preliminary mass/power budget
+- Full development roadmap from present day to flight
+- Active risk register under TOLC 8
+- Human + AI collaboration protocol
+- Proprietary protection under Autonomicity Games Inc.
 
-- Clear physics-based propulsion and mass-ratio understanding
-- Life support, power, structure, and shielding frameworks
-- Comfortable rotating habitat design rules
-- Magnetic sail deceleration strategy
-- Self-healing skin requirements
-- Major interface map
-- Seed vessel concept as the practical first step
-- Top-level safety case under TOLC 8
-- Realistic fuel acquisition strategy
+## Recommended Next Work (Detailed Design Phase)
 
-## Next Recommended Work (Phase 2)
+The highest-value remaining work is now iterative and quantitative against the locked Reference Seed Vessel:
 
-The foundation is locked. Future work packages should focus on:
+1. Refined structural and shielding mass models for DSA-Ref-A
+2. Multi-stage propellant mass calculation with explicit tank fractions
+3. Detailed life-support area and power tables for ~300 people
+4. Magnetic sail parametric sizing for 0.05 c class deceleration
+5. Expanded FMEA / quantitative risk assessment
+6. Orbital assembly sequence and industrial capacity analysis
 
-1. Detailed quantitative mass breakdowns for a reference Seed Vessel
-2. Full multi-stage propulsion mass model with real tank fractions
-3. Crop-by-crop life support area and power tables
-4. Magnetic sail parametric sizing
-5. Construction and orbital assembly sequence
-6. Progressive flight test and demonstration roadmap
-7. Detailed FMEA / quantitative risk assessment expanding the safety case
-
-These can be opened as new work packages by humans or AI systems following the collaboration protocol.
+These can be opened as new work packages by humans or AI systems at any time.
 
 ---
 
-**The core architecture of the Daedalus-Skin Eternal Ark is now complete and coherent under Autonomicity Games Inc. and PATSAGi / TOLC 8 governance.**
+**The core of the Eternal Ark is complete and ready for detailed engineering.**
