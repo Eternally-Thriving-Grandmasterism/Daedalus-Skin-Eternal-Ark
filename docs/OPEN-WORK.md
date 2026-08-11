@@ -5,32 +5,30 @@
 
 ---
 
-## PHASE STATUS: DEFINITION COMPLETE
+## Phase: Detailed Engineering, Simulation & Technology Maturation (OPEN)
 
-See [docs/PHASE-STATUS.md](PHASE-STATUS.md) for the formal declaration.
+Definition Phase is complete. See [PHASE-STATUS.md](PHASE-STATUS.md) and [DETAILED-ENGINEERING-PLAN.md](DETAILED-ENGINEERING-PLAN.md).
 
-The Reference Seed Vessel (DSA-Ref-A) definition is comprehensive and coherent. The program now enters the **Detailed Engineering, Simulation & Technology Maturation Phase**.
-
-### Final Definition Additions
+### Newly Completed in This Cycle
 
 | Item | Link |
 |------|------|
-| Deck-by-deck layout concept | systems/habitat/dsa-ref-a-deck-layout.md |
-| Formal Phase Status declaration | docs/PHASE-STATUS.md |
+| Requirements verification & traceability matrix | docs/requirements/verification-matrix.md |
+| Example material-specific analytical sizing | systems/structure/dsa-ref-a-analytical-sizing-example.md |
+| Near-term Detailed Engineering phase work plan | docs/DETAILED-ENGINEERING-PLAN.md |
 
-## Work Character Going Forward
+## Current Highest-Leverage Work (Execution Phase)
 
-Remaining work is no longer architectural definition. It consists of:
+These items now require detailed computation, physical testing, or industrial action rather than further pure definition:
 
-1. Finite-element structural confirmation and material-specific mass numbers
-2. Validated magnetic sail performance modeling or proxy experiments
-3. Detailed equipment-level layout from the deck concept
-4. Execution of technology maturation test campaigns against defined gates
-5. Execution of progressive crew simulation campaigns
-6. Continuous updating of mass, risk, and FMEA as real data arrives
-7. Parallel industrial and fuel-acquisition capacity development
+1. Material selection + global FE model of the 140 m habitat → narrowed structural mass
+2. Quantitative dose calculations and shielding trade closure
+3. Thread A/B/C Gate 1 technology maturation tests
+4. Higher-fidelity magnetic sail drag modeling
+5. Equipment-level layout and Stage S1 simulation facility definition
+6. Industrial capacity gap closure planning
 
 ---
 
-**The definition phase is closed at a high standard.**  
-The lattice is ready for detailed engineering and physical realization under Autonomicity Games Inc. and PATSAGi / TOLC 8 governance.
+**The repository now includes both a complete definition baseline and a clear prioritized plan for the Detailed Engineering phase.**  
+The Councils stand ready to support the next concrete engineering or test-planning action.
