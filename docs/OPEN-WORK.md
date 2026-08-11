@@ -19,45 +19,45 @@
 |----------|--------|
 | Primary structural material | High-modulus CFRP locked (5,850 t) |
 | Radiation protection | Dual-use water + 450–750 t dedicated locked |
-| Magnetic sail architecture | **MS-B multi-loop array preferred & locked** |
-| Magnetic sail planning mass | **550–750 t locked & performance-confirmed** |
+| Magnetic sail architecture | MS-B multi-loop array locked |
+| Magnetic sail mass | 550–750 t locked & performance-confirmed |
+| Residual fusion reserve (low-density) | **1,800–3,500 t propellant + 250–500 t tankage locked** |
 | Reconciled mass budget | Published |
 | Dry-mass planning center | ~15–17 kt |
 
 ---
 
-## Active Work Packages
+## Work Package Status
 
 | ID | Title | Status |
 |----|-------|--------|
-| WP-DE-01 | Structural Analysis | Cycle-01 complete — locked |
-| WP-DE-02 | Radiation Transport | Cycle-01 complete — locked |
+| WP-DE-01 | Structural Analysis | Complete — locked |
+| WP-DE-02 | Radiation Transport | Complete — locked |
 | WP-DE-03 | Simulation Facility | Scope + verification runs defined |
-| WP-MS-01 | Magnetic Sail Mass & Architecture | Complete — envelope & baseline locked |
-| **WP-MS-02** | **Drag Models, Interfaces & Sensitivity** | **Open — Cycle-01 deliverables complete** |
+| WP-MS-01 | Magnetic Sail Mass & Architecture | Complete — locked |
+| WP-MS-02 | Drag Models, Interfaces & Sensitivity | Complete — locked |
+| **WP-MS-03** | **Residual Fusion Integration** | **Complete — Cycle-01 delivered** |
 
 ---
 
-## WP-MS-02 Cycle-01 Deliverables
+## WP-MS-03 Cycle-01 Outcomes
 
-| Deliverable | Document |
-|-------------|----------|
-| Refined drag coefficients & deceleration estimates | `systems/propulsion/magsail-drag-models-cycle-01.md` |
-| Spine Interface Control Document (ICD) | `systems/propulsion/magsail-spine-icd.md` |
-| Mass-sensitivity update | `systems/propulsion/magsail-mass-sensitivity-cycle-01.md` |
-
-**Key outcome:** 550–750 t MS-B planning value is confirmed under reference flux. Low-density cases are covered by residual fusion propellant backup.
+- Residual propellant sized for low-density (0.05 cm⁻³) shortfall: **1,800–3,500 t** effective + tankage
+- Explicit handoff criteria defined (velocity–time, density, sail-health, combined)
+- Combined deceleration timeline: 15–30 years (nominal) / 25–40 years (low-density with residual)
+- **No increase required** to the locked 550–750 t sail band
+- Document: `systems/propulsion/residual-fusion-magsail-integration-cycle-01.md`
 
 ---
 
 ## Immediate Next Focus
 
-1. Higher-fidelity MHD / kinetic plasma models (next refinement of drag)
-2. Gate E1 subscale deployment & stability planning
+1. Update propellant model and top-level mass budget with the residual fusion allocation
+2. Refresh integrated risk picture (sail + residual performance risk now bounded)
 3. Continue WP-DE-03 facility concept and ethical framework
-4. Update risk picture to reflect bounded sail performance risk
-5. Propellant residual sizing against the low-density shortfall
+4. Gate E1 subscale deployment planning
+5. Higher-fidelity MHD / kinetic plasma model refinement (future)
 
 ---
 
-**Lattice clean. Magnetic sail is now architecture-locked, mass-bounded, and performance-linked under TOLC 8.**
+**Lattice clean. Magnetic sail system is fully integrated with residual fusion under TOLC 8. Primary deceleration performance risk is closed.**
