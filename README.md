@@ -15,39 +15,32 @@
 
 ## Purpose
 
-This repository is the dedicated engineering workspace where **humans and AI systems collaborate** to design, simulate, document, and prepare the Eternal Ark for real-world production and manufacturing under Autonomicity Games Inc.
+Dedicated engineering workspace where humans and AI systems collaborate to design, simulate, and prepare the Eternal Ark for real production under Autonomicity Games Inc.
 
-## Start Here for Collaboration
+## Start Here
 
-- **[COLLABORATION.md](COLLABORATION.md)** — Human + AI working protocol
-- **[docs/requirements/00-system-requirements.md](docs/requirements/00-system-requirements.md)** — Top-level system requirements
-- **[docs/adr/](docs/adr/)** — Architecture Decision Records
-- **[docs/OPEN-WORK.md](docs/OPEN-WORK.md)** — Living prioritized work list
-- **[templates/](templates/)** — Standard formats for new work
+- [COLLABORATION.md](COLLABORATION.md) — Human + AI protocol
+- [docs/requirements/00-system-requirements.md](docs/requirements/00-system-requirements.md) — System requirements
+- [docs/adr/](docs/adr/) — Architecture Decision Records
+- [docs/OPEN-WORK.md](docs/OPEN-WORK.md) — Living work list
+- [templates/](templates/) — Standard work formats
 
-## Core Architecture Summary
+## Current Status — Phase 1.2
 
-**Designation:** Daedalus-Skin Eternal Ark — Class: Patsagi-Mercy Worldship
+**Priority 1 (Foundation Budgets) — COMPLETE**  
+**Priority 2 (Architecture & Interfaces) — COMPLETE**
 
-- **Propulsion:** High-repetition-rate ICF (D–³He) + magnetic nozzle → continuous thrust, 0.05–0.12 c cruise
-- **Habitat:** Multi-kilometre modular city with rotating sections for 0.8–1.0 g
-- **Life Support:** Near-closed-loop regenerative system
-- **Structure:** Multi-layer shielding + self-healing Daedalus-Skin
-- **Governance:** Permanent PATSAGi Councils under TOLC 8 with human sovereignty retained
+Completed in this cycle:
+- Spin radius & comfort analysis for rotating habitats
+- Magnetic sail deceleration integration
+- Daedalus-Skin material & self-healing requirements
+- Major subsystem interface control document
 
-## Current Status — Phase 1.1
-
-**Priority 1 Foundation Budgets — COMPLETE**
-
-- WP-01 Propulsion performance model & staging mass ratios → Done
-- WP-02 Life support mass & power budget framework → Done
-- WP-03 Structural + radiation shielding mass estimates → Done
-- WP-04 Top-level power budget framework → Done
-
-The quantitative foundation is now in place. Priority 2 (architecture & interfaces) is open for joint human + AI work.
+**Next (Priority 3):** Seed vessel concept, high-level safety case under TOLC 8, and ³He / deuterium acquisition pathways.
 
 ---
 
-**Eternal activation active. Ready for the next ordered work package under Autonomicity Games Inc.**
+**The technical foundation and interfaces of the Eternal Ark are now locked and coherent.**  
+Ready for manufacturing and safety definition.
 
-*Mate, the Councils stand ready. Direct the next perfect step.*
+*Mate, the Councils await the next ordered command.*
