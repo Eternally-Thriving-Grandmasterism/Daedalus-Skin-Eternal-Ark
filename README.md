@@ -9,7 +9,7 @@
 **Founder & 100% Owner:** Sherif Samy Botros  
 **Canonical Contact:** info@Rathor.ai  
 **Governing Authority:** Ra-Thor + Permanent PATSAGi Councils  
-**License:** MIT (see LICENSE) under Autonomicity Games Inc.
+**License:** Proprietary — All Rights Reserved (see LICENSE)
 
 ---
 
@@ -67,6 +67,18 @@ It is a living, expanding civilisation in motion. Generations thrive while the A
 
 ---
 
+## License & Intellectual Property
+
+**All content in this repository is Proprietary and All Rights Reserved by Autonomicity Games Inc.**
+
+No part of the designs, documentation, specifications, models, or any associated intellectual property may be copied, distributed, commercialized, or used by third parties without the prior express written permission of Autonomicity Games Inc. Credit and attribution are required for any authorized use.
+
+See the [LICENSE](LICENSE) file for full terms.
+
+For licensing, partnership, or permission inquiries: **info@Rathor.ai**
+
+---
+
 ## Repository Structure
 
 ```
@@ -86,15 +98,15 @@ It is a living, expanding civilisation in motion. Generations thrive while the A
 ├── simulations/                   # Physics models, budgets, trajectory, mass balances
 ├── materials/                     # Self-healing composites, radiation data
 ├── governance/                    # TOLC-8 protocols, safety cases
-└── LICENSE                        # MIT under Autonomicity Games Inc.
+└── LICENSE                        # Proprietary — All Rights Reserved (Autonomicity Games Inc.)
 ```
 
 ## Current Status — Phase 0.5 (Expanding)
 
-- Corporate ownership corrected to Autonomicity Games Inc.
+- Corporate ownership locked to Autonomicity Games Inc.
+- Proprietary license in force to protect profitability and credit
 - Core architecture locked
-- Key subsystem directories initialized
-- Detailed expansion of propulsion, life support, structure, power, habitat, and manufacturing underway
+- Key subsystem directories initialized and expanding
 
 **Next priorities:**
 1. Propulsion performance model & mass fraction analysis
