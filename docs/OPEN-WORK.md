@@ -11,6 +11,7 @@
 **DEFINITION PHASE: COMPLETE**  
 **DETAILED ENGINEERING (DELIBERATIVE PORTION): COMPLETE**  
 **COLLABORATION GATES (15.0 kt seed / 0.05 c floor): ACCEPTED — ADR-0003**  
+**HIGHER-FIDELITY PASS CARD: READY — WP-HF-01 (not run)**  
 **PHYSICAL TESTING & HIGHER-FIDELITY COMPUTATION: OPEN**
 
 ---
@@ -35,27 +36,28 @@
 
 ---
 
-## Work Package Status (All Deliberative Work Closed)
+## Work Package Status
 
 | ID | Title | Status |
 |----|-------|--------|
-| WP-DE-01 | Structural Analysis | Complete — locked |
-| WP-DE-02 | Radiation Transport | Complete — locked (Monte-Carlo still open) |
+| WP-DE-01 | Structural Analysis | Cycle-01 planning lock — HF FEA not run |
+| WP-DE-02 | Radiation Transport | Cycle-01 planning lock — Monte-Carlo not run |
 | WP-DE-03 | Simulation Facility | Requirements + ethical framework complete |
 | WP-MS-01 | Magnetic Sail Mass & Architecture | Complete — locked |
 | WP-MS-02 | Drag Models, Interfaces & Sensitivity | Complete — locked |
 | WP-MS-03 | Residual Fusion Integration | Complete — locked |
 | WP-MB-02 | Mass Budget Integration | Complete — locked |
 | ADR-0003 | 15 kt seed / 0.05 c public floor | Accepted 2026-08-29 |
+| WP-HF-01 | Higher-fidelity pass (FEA / dose / E1) | Ready — run card blank |
 
 ---
 
 ## What Remains (Requires Physical Reality or External Computation)
 
-1. Higher-fidelity FEA confirmation of the 5,850 t CFRP number
-2. Monte-Carlo radiation transport confirmation of the 450–750 t shielding band
-3. Physical Gate 1 execution (Threads A, B, C)
-4. Gate E1 magnetic-sail subscale deployment & stability tests
+1. WP-HF-01 Pass A — FEA confirmation of the 5,850 t CFRP number
+2. WP-HF-01 Pass B — Monte-Carlo confirmation of the 450–750 t shielding band
+3. WP-HF-01 Pass C — Gate E1 magnetic-sail subscale deployment
+4. Physical Gate 1 execution (Threads A, B, C)
 5. Realization of simulation facilities and S1/S2 campaign execution
 6. Exhaust-velocity and tank-fraction maturation
 7. Industrial capacity and ³He acquisition infrastructure
@@ -65,9 +67,9 @@
 
 ## Authoritative Snapshot
 
-See [CURRENT-BASELINE-SUMMARY.md](CURRENT-BASELINE-SUMMARY.md) and [01-mass-budget-propulsion-interface.md](interfaces/01-mass-budget-propulsion-interface.md).
+See [CURRENT-BASELINE-SUMMARY.md](CURRENT-BASELINE-SUMMARY.md), [01-mass-budget-propulsion-interface.md](interfaces/01-mass-budget-propulsion-interface.md), and [WP-HF-01](work-packages/WP-HF-01-higher-fidelity-pass.md).
 
 ---
 
-**All work achievable by pure deliberation and systems engineering under TOLC 8 is complete.**  
-The lattice is ready for physical testing and higher-fidelity computation.
+**All work achievable by pure deliberation under TOLC 8 is complete.**  
+WP-HF-01 is the next higher-fidelity pass. It has not been run.
