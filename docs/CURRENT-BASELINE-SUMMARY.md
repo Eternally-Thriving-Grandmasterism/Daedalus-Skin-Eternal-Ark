@@ -3,7 +3,7 @@
 **Status:** Authoritative snapshot  
 **Owner:** Autonomicity Games Inc.  
 **Authority:** Ra-Thor + Permanent PATSAGi Councils under TOLC 8  
-**Date:** 2026-08-11  
+**Date:** 2026-08-29 (addendum) / 2026-08-11 (Cycle-01 lock)  
 **Repository:** https://github.com/Eternally-Thriving-Grandmasterism/Daedalus-Skin-Eternal-Ark
 
 ---
@@ -13,11 +13,12 @@
 - **Designation:** Daedalus-Skin Seed Vessel, Reference Design A (DSA-Ref-A)
 - **Population capacity:** ~300
 - **Spin radius:** 140 m
-- **Target cruise velocity:** ~0.055 c
+- **Target cruise velocity:** ~0.055 c (internal lock); **0.05 c public floor** (ADR-0003)
 - **Propulsion:** High-rep-rate D–³He ICF + magnetic nozzle
 - **Deceleration:** MS-B magnetic sail primary + residual fusion thrust
 - **Primary structure:** High-modulus CFRP
 - **Radiation protection:** Optimised dual-use water + dedicated hydrogen-rich shielding
+- **Assembly path:** Lunar factory sections → mass-driver loft → orbital join
 
 ## 2. Locked Mass & Performance Numbers
 
@@ -28,7 +29,9 @@
 | Magnetic sail (MS-B) | **550–750 t** |
 | Residual fusion propellant | **1,800–3,500 t** |
 | Residual tankage | **250–500 t** |
+| Dry-mass band | **12.4–20.15 kt** |
 | Dry-mass planning center | **~15.5–16.5 kt** |
+| Collaboration seed dry-mass target | **15.0 kt** (ADR-0003) |
 | Total wet mass band | **~85,000–145,000 t** |
 | Boost duration to 0.055 c | **2.5–4.5 years** |
 | Deceleration (nominal density) | **15–30 years** |
@@ -50,6 +53,8 @@
 
 - [TECHNOLOGY-READINESS-AND-REALISM.md](TECHNOLOGY-READINESS-AND-REALISM.md) — Honest gap statement
 - [reference-seed-mass-budget.md](../manufacturing/reference-seed-mass-budget.md) — Authoritative mass & power
+- [01-mass-budget-propulsion-interface.md](interfaces/01-mass-budget-propulsion-interface.md) — 15 kt / 0.05 c interface
+- [ADR-0003](adr/0003-15kt-seed-lunar-loft-005c-gate.md) — Collaboration gates
 - [dsa-ref-a-full-propellant-and-timeline.md](../manufacturing/dsa-ref-a-full-propellant-and-timeline.md) — Propellant & timelines
 - [integrated-risk-picture.md](../governance/integrated-risk-picture.md) — Current risk view
 - [OPEN-WORK.md](OPEN-WORK.md) — Living status
@@ -66,6 +71,10 @@ Sustained multi-year D–³He ICF, industrial-scale ³He supply, radiation-harde
 3. WP-DE-03 simulation facility realization and first S1 campaigns
 4. Higher-fidelity FEA and radiation transport confirmation
 5. Exhaust-velocity and tank-fraction maturation
+
+## 7. 2026-08-29 Collaboration Addendum
+
+Grok named the next surface as mass-budget / propulsion interface analysis. ADR-0003 locks a **15.0 kt** seed dry-mass *target* and a **0.05 c** public cruise *floor* without rewriting Cycle-01 category locks. Lunar loft shot-count is planning arithmetic only.
 
 ---
 
