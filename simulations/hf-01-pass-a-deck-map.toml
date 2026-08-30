@@ -1,0 +1,50 @@
+# HF-01 Pass A — occupied-floor live-load map (ADR-0005)
+# Not a run. Preferred LC-04 over uniform 2.4 kPa.
+# Contact: info@Rathor.ai
+
+map_id = "HF-01-PASS-A-DECK-MAP"
+parent_deck = "HF-01-PASS-A"
+occupied_floor_m2 = 8450.0
+live_load_force_n = 2.145e7
+live_load_tonne_equivalent_1g = 2186.0
+
+[[decks]]
+id = "A"
+role = "residential"
+occupied_floor_m2 = 3900.0
+live_load_pa = 2000.0
+equipment_t = 150.0
+water_t = 400.0
+water_placement = "outboard_annulus"
+
+[[decks]]
+id = "B"
+role = "community"
+occupied_floor_m2 = 1150.0
+live_load_pa = 3000.0
+equipment_t = 200.0
+water_t = 0.0
+
+[[decks]]
+id = "C"
+role = "food_production"
+occupied_floor_m2 = 2750.0
+live_load_pa = 3000.0
+equipment_t = 500.0
+water_t = 0.0
+
+[[decks]]
+id = "D"
+role = "technical_life_support"
+occupied_floor_m2 = 400.0
+live_load_pa = 3000.0
+equipment_t = 800.0
+water_t = 0.0
+
+[[decks]]
+id = "E"
+role = "medical_exercise"
+occupied_floor_m2 = 250.0
+live_load_pa = 3000.0
+equipment_t = 150.0
+water_t = 0.0
