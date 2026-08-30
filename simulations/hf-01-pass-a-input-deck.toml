@@ -1,0 +1,89 @@
+# HF-01 Pass A — habitat FEA input deck
+# Status: frozen inputs. Not a run. Not a mass result.
+# Parent: docs/work-packages/WP-HF-01-higher-fidelity-pass.md
+# Geometry: systems/structure/dsa-ref-a-geometry-and-loads.md
+# Allowables: materials/allowables-and-safety-factors-wp-de-01.md
+# Contact: info@Rathor.ai
+# Proof Ladder: design / systems-engineering. Do not label output as measured.
+
+deck_id = "HF-01-PASS-A"
+reference_design = "DSA-Ref-A"
+material_primary = "high-modulus-cfrp"
+material_reference = "al-li"
+planning_habitat_mass_t = 5850.0
+change_rule_fraction = 0.15
+change_rule_upper_t = 6727.5
+
+[geometry]
+form = "pressurized_cylinder"
+spin_radius_m = 140.0
+axial_length_m = 100.0
+axial_length_sensitivity_m = [80.0, 120.0]
+outer_diameter_m = 280.0
+internal_pressure_pa = 101300.0
+design_gravity_m_s2 = 8.83
+design_gravity_g = 0.90
+omega_rad_s = 0.2511
+spin_period_s = 25.03
+primary_decks = 5
+deck_spacing_m = [3.5, 4.0]
+spine_in_global_model = false
+
+[cfrp_lower_bound]
+density_kg_m3 = 1550.0
+E11_gpa = 140.0
+E22_gpa = 8.0
+G12_gpa = 4.0
+nu12 = 0.30
+ftu_long_mpa = 1800.0
+fc_long_mpa = 1000.0
+ft_trans_mpa = 40.0
+f_shear_mpa = 70.0
+fs_ultimate_fibre = 2.0
+fs_matrix = 3.0
+buckling_knockdown = 0.50
+aging_factor = 1.25
+
+[al_li_lower_bound]
+density_kg_m3 = 2700.0
+E_gpa = 76.0
+nu = 0.33
+ftu_mpa = 520.0
+fty_mpa = 450.0
+kic_mpa_sqrt_m = 25.0
+fs_ultimate = 2.0
+fs_yield = 1.5
+buckling_knockdown = 0.65
+
+[load_cases]
+ids = ["LC-01", "LC-02", "LC-03", "LC-04", "LC-05", "LC-06", "LC-07", "LC-08"]
+lc01 = "pressure proof 1.5x, no spin"
+lc02 = "pressure ultimate 2.0x, no spin"
+lc03 = "spin + design pressure (cruise)"
+lc04 = "LC-03 + max deck live load + equipment"
+lc05 = "spin-up / spin-down transient"
+lc06 = "docking / berthing at spin interface"
+lc07 = "thermal soak + LC-03"
+lc08 = "buckling / stability combinations"
+
+[open_inputs]
+deck_live_load_pa = "TBD — set before LC-04"
+equipment_mass_t = "TBD — share with Pass B water tanks"
+water_tank_mass_t = "TBD — same geometry as Pass B"
+joint_factors = "additional local factors until joint allowables exist"
+
+[outputs_required]
+mass_breakdown = true
+peak_stress_and_margin_per_lc = true
+buckling_eigenvalues = true
+spin_deformation = true
+mass_drivers = true
+recommended_habitat_mass_t = true
+recommended_mass_band_fraction = 0.15
+
+[pass_fail]
+hold_5850_if_recommended_t_le = 6727.5
+fire_change_rule_if_recommended_t_gt = 6727.5
+all_lc_positive_margin = true
+same_water_geometry_as_pass_b = true
+blank_run_is_not_a_pass = true
