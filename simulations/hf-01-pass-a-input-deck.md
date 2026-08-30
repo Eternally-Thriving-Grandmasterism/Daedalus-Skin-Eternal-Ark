@@ -1,17 +1,15 @@
 # HF-01 Pass A Input Deck — Human Cover
 
-**Status:** Frozen inputs including LC-04 (ADR-0004). Not a run.  
-**Machine file:** [hf-01-pass-a-input-deck.toml](hf-01-pass-a-input-deck.toml)  
-**LC-04 freeze:** [ADR-0004](../docs/adr/0004-lc04-live-load-equipment-water.md)  
-**Package:** [WP-HF-01](../docs/work-packages/WP-HF-01-higher-fidelity-pass.md)  
-**Command:** [UNIFIED-NEXT.md](../docs/UNIFIED-NEXT.md)  
+**Status:** Frozen inputs. Preferred LC-04 is the occupied-floor map. Not a run.  
+**Machine files:** [hf-01-pass-a-input-deck.toml](hf-01-pass-a-input-deck.toml), [hf-01-pass-a-deck-map.toml](hf-01-pass-a-deck-map.toml)  
+**ADRs:** [0004](../docs/adr/0004-lc04-live-load-equipment-water.md), [0005](../docs/adr/0005-deck-live-load-map.md)  
 **Contact:** info@Rathor.ai
 
-| LC-04 load | Planning freeze |
-|------------|-----------------|
-| Uniform deck live load | 2.4 kPa |
-| Equipment + outfitting | 1,800 t |
-| Dual-use water | 400 t, annulus outboard of sleep decks |
-| Dedicated shield (Pass B) | 600 t |
+| LC-04 | Preferred |
+|-------|-----------|
+| Occupied floor | 8,450 m² across decks A–E |
+| Occupied live load | 21.45 MN ≈ 2,186 t-eq at 1 g |
+| Equipment | 1,800 t (D 800 / C 500 / B 200 / E 150 / A 150) |
+| Water | 400 t on Deck A outboard annulus |
 
-2.4 kPa is a terrestrial-habitat analog. It is not flight data. 5,850 t is still the number the model must confirm or reject.
+Do **not** paint 2.4 kPa on the full ~88,000 m² cylinder skin. That case is mass-fiction (~21 kt-eq). Uniform 2.4 kPa remains only a fallback if a partner model cannot take the map.

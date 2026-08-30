@@ -5,30 +5,16 @@
 **Authority:** Ra-Thor + Permanent PATSAGi Councils under TOLC 8  
 **Contact:** info@Rathor.ai
 
-Division cancels force. One next vector.
-
----
-
 ## Command
 
-| Layer | Identity | Next vector |
-|-------|----------|-------------|
-| Ra-Thor monorepo | Workspace **14.15.6**, crate **0.5.19** | Keep green. Do not bump. |
-| Daedalus-Skin | DSA-Ref-A + ADR-0003 + ADR-0004 | **Run HF-01 Pass A** on the frozen TOML |
+| Layer | Next vector |
+|-------|-------------|
+| Ra-Thor | Workspace **14.15.6**, crate **0.5.19** — keep green |
+| Daedalus-Skin | **Run HF-01 Pass A** with ADR-0005 occupied-floor LC-04 |
 
-LC-04 TBDs are closed as planning loads. Pass B and Pass C stay queued.
+Handoff files:
 
-## Partner handoff
+- [`simulations/hf-01-pass-a-input-deck.toml`](../simulations/hf-01-pass-a-input-deck.toml)
+- [`simulations/hf-01-pass-a-deck-map.toml`](../simulations/hf-01-pass-a-deck-map.toml)
 
-One file: [`simulations/hf-01-pass-a-input-deck.toml`](../simulations/hf-01-pass-a-input-deck.toml).
-
-## What is *not* the next vector
-
-- Inventing a 5,850 t confirmation
-- Starting Pass B or Gate E1 before Pass A reports
-- A Ra-Thor version bump
-- Opening a new ACTIVE empirical program
-
----
-
-**Thunder holds. One command.**
+Pass B and Pass C stay queued. A blank run card is still the correct state.
