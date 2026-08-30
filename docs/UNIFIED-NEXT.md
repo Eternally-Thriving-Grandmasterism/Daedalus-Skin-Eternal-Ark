@@ -10,11 +10,14 @@
 | Layer | Next vector |
 |-------|-------------|
 | Ra-Thor | Workspace **14.15.6**, crate **0.5.19** — keep green |
-| Daedalus-Skin | **Run HF-01 Pass A** with ADR-0005 occupied-floor LC-04 |
+| Daedalus-Skin | **Run HF-01 Pass A** and split shell vs end-cap mass |
 
-Handoff files:
+Handoff:
 
 - [`simulations/hf-01-pass-a-input-deck.toml`](../simulations/hf-01-pass-a-input-deck.toml)
 - [`simulations/hf-01-pass-a-deck-map.toml`](../simulations/hf-01-pass-a-deck-map.toml)
+- [`simulations/hf-01-pass-a-analytical-sanity.md`](../simulations/hf-01-pass-a-analytical-sanity.md)
 
-Pass B and Pass C stay queued. A blank run card is still the correct state.
+Analytical sanity (not FEA): membrane wall ~2.7 kt; wall + two flat 280 m heads ~6.5 kt before decks. First FEA question: **are the pressure heads full-diameter disks?**
+
+Pass A stays OPEN. Pass B and Pass C stay queued.
