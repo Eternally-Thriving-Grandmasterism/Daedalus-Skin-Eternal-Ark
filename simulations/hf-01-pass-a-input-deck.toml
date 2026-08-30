@@ -1,12 +1,14 @@
 # HF-01 Pass A — habitat FEA input deck
-# Status: frozen inputs. Not a run. Not a mass result.
+# Status: frozen inputs including LC-04 loads (ADR-0004). Not a run. Not a mass result.
 # Parent: docs/work-packages/WP-HF-01-higher-fidelity-pass.md
 # Geometry: systems/structure/dsa-ref-a-geometry-and-loads.md
 # Allowables: materials/allowables-and-safety-factors-wp-de-01.md
+# LC-04 loads: docs/adr/0004-lc04-live-load-equipment-water.md
 # Contact: info@Rathor.ai
 # Proof Ladder: design / systems-engineering. Do not label output as measured.
 
 deck_id = "HF-01-PASS-A"
+deck_revision = "ADR-0004"
 reference_design = "DSA-Ref-A"
 material_primary = "high-modulus-cfrp"
 material_reference = "al-li"
@@ -60,17 +62,23 @@ ids = ["LC-01", "LC-02", "LC-03", "LC-04", "LC-05", "LC-06", "LC-07", "LC-08"]
 lc01 = "pressure proof 1.5x, no spin"
 lc02 = "pressure ultimate 2.0x, no spin"
 lc03 = "spin + design pressure (cruise)"
-lc04 = "LC-03 + max deck live load + equipment"
+lc04 = "LC-03 + 2.4 kPa live load + 1800 t equipment + 400 t water"
 lc05 = "spin-up / spin-down transient"
 lc06 = "docking / berthing at spin interface"
 lc07 = "thermal soak + LC-03"
 lc08 = "buckling / stability combinations"
 
-[open_inputs]
-deck_live_load_pa = "TBD — set before LC-04"
-equipment_mass_t = "TBD — share with Pass B water tanks"
-water_tank_mass_t = "TBD — same geometry as Pass B"
-joint_factors = "additional local factors until joint allowables exist"
+[lc04]
+deck_live_load_occupied_pa = 2400.0
+deck_live_load_technical_pa = 3000.0
+deck_live_load_first_cycle_uniform_pa = 2400.0
+equipment_and_outfitting_t = 1800.0
+water_inventory_t = 400.0
+dedicated_shield_t = 600.0
+water_placement = "segmented_annulus_outboard_sleep_decks"
+live_load_provenance = "terrestrial-habitat analog; not flight data"
+water_provenance = "300-person 1.2-1.8 t/day throughput; 400 t is dual-use inventory"
+equipment_provenance = "15.0 kt seed LS+outfitting 2200 t minus 400 t water"
 
 [outputs_required]
 mass_breakdown = true
