@@ -1,4 +1,4 @@
-# Daedalus-Skin Eternal Ark
+# Daedalus-Skin-Eternal-Ark
 ## PATSAGi-Mercy Class Worldship
 
 **Physics-based realistic city-scale fusion vessel for safe, continuous multi-generational traversal of interstellar and intergalactic space.**
