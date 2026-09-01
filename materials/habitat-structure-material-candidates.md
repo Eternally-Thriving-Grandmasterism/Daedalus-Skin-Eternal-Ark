@@ -3,7 +3,7 @@
 **Status:** Working short-list for WP-DE-01  
 **Owner:** Autonomicity Games Inc.  
 **Linked Work Package:** WP-DE-01 Structural Analysis  
-**Last Updated:** 2026-08-11
+**Last Updated:** 2026-09-01
 
 ---
 
@@ -71,6 +71,19 @@ Provide a traceable short-list of material systems that can be used for the firs
 
 **Recommendation:** High-value concept for detailed trade after pure-CFRP and Al-Li baselines are established.
 
+### 3.5 Watch class — Polycrystalline Graphene / Graphene Super-Laminate (not first-cycle)
+
+ISEC’s Earth-elevator stream cites polycrystalline CVD graphene at **90–99 GPa if** grain boundaries are well-stitched, plus a 1 km / ~2 m/min Korean roll-to-roll line (CharmGraphene and peers). That line produces electronics-grade film, not a 12,000-layer shear-locked tether and not a habitat pressure shell.
+
+| Attribute | Notes |
+|-----------|-------|
+| Role on this matrix | Watch only. Do not insert into WP-DE-01 FE cases or allowables. |
+| Possible later uses | Ultra-thin sacrificial / conductive / thermal outer plies on Daedalus-Skin; not the primary shell |
+| Blocking physics | Grain-boundary weakest-link statistics; van der Waals interlayer shear ~35× too weak for concentrated rolling loads unless cross-linked; atomic oxygen and debris |
+| Full packet | `pcg-gsl-tether-watch-2026-09-01.md` |
+
+**Recommendation:** Keep CFRP / Al-Li / Ti unchanged for the first cycle. Re-open this class only if metre-class coupons at 80–100 GPa and a demonstrated interlayer cross-link are published.
+
 ## 4. First-Cycle Decision Rule
 
 For the initial global FE model:
@@ -85,6 +98,7 @@ For the initial global FE model:
 - Large-scale join methods and their allowables
 - Damage-tolerance substantiation approach for a multi-decade rotating habitat
 - Integration of Daedalus-Skin outer layers with the primary structural material
+- Watch only: independent metre-class PCG / GSL coupon data before any FE insertion (`pcg-gsl-tether-watch-2026-09-01.md`)
 
 ---
 
