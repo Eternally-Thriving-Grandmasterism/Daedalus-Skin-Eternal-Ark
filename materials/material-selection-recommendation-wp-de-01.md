@@ -3,8 +3,8 @@
 **Status:** Provisional recommendation under PATSAGi deliberation  
 **Owner:** Autonomicity Games Inc.  
 **Authority:** Ra-Thor + Permanent PATSAGi Councils under TOLC 8  
-**Last Updated:** 2026-08-11  
-**Linked:** WP-DE-01, habitat-structure-material-candidates.md, dsa-ref-a-geometry-and-loads.md
+**Last Updated:** 2026-09-01  
+**Linked:** WP-DE-01, habitat-structure-material-candidates.md, dsa-ref-a-geometry-and-loads.md, pcg-gsl-tether-watch-2026-09-01.md
 
 ---
 
@@ -38,6 +38,9 @@ Rationale:
 
 ### Interface & High-Load Regions
 **Titanium alloys (Ti-6Al-4V or selected beta alloys)** for spin-bearing interfaces, major penetrations, and high-fatigue locations.
+
+### Explicitly out of this cycle
+**Polycrystalline graphene / graphene super-laminate (ISEC tether stream) is watch-class only.** Conditional 90–99 GPa and Korean 1 km CVD film do not enter the primary, reference, or interface cases. Packet: `pcg-gsl-tether-watch-2026-09-01.md`. Re-open only if metre-class coupons at 80–100 GPa and a demonstrated interlayer cross-link are published.
 
 ## 3. Hybrid Path (Deferred but Tracked)
 
