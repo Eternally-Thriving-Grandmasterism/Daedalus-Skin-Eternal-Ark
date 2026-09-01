@@ -3,7 +3,7 @@
 **Status:** Baseline plan  
 **Owner:** Autonomicity Games Inc.  
 **Linked to:** Development Roadmap & Risk Register  
-**Last Updated:** 2026-08-11
+**Last Updated:** 2026-09-01
 
 ## 1. Purpose
 
@@ -34,6 +34,7 @@ Systematically reduce the highest risks identified in the risk register and FMEA
 - Impact and puncture healing demonstrations
 - Long-term aging characterization
 - Target: Qualify outer skin for multi-decade service
+- Watch only (2026-09-01): ISEC PCG / GSL sheet path may later inform an ultra-thin sacrificial / conductive / thermal outer ply. It does **not** add a Gate, does **not** replace polymer / vitrimer work, and does **not** open a new empirical program. Packet: `materials/pcg-gsl-tether-watch-2026-09-01.md`. S-1 remains the sole ACTIVE empirical program.
 
 ### Thread E — Magnetic Sail
 - Subscale superconducting loop deployment and stability tests
