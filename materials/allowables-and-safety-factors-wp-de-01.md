@@ -3,8 +3,8 @@
 **Status:** Working compilation for comparative FE models  
 **Owner:** Autonomicity Games Inc.  
 **Authority:** Ra-Thor + Permanent PATSAGi Councils under TOLC 8  
-**Last Updated:** 2026-08-11  
-**Linked:** material-selection-recommendation-wp-de-01.md, dsa-ref-a-geometry-and-loads.md
+**Last Updated:** 2026-09-01  
+**Linked:** material-selection-recommendation-wp-de-01.md, dsa-ref-a-geometry-and-loads.md, pcg-gsl-tether-watch-2026-09-01.md
 
 ---
 
@@ -13,6 +13,8 @@
 Provide the numerical allowables and safety / knockdown factors required to run the comparative global finite-element models for the primary (CFRP) and reference (Al-Li) material systems.
 
 These values are drawn from typical aerospace practice and published ranges. They are deliberately conservative for a multi-decade rotating habitat and will be refined as qualified data packages become available.
+
+**Out of scope for this table:** ISEC polycrystalline graphene / graphene super-laminate figures (including conditional 90–99 GPa). Those stay in the watch note. Do not paste them here.
 
 ## 2. Aluminium-Lithium Reference System (Al-Li)
 
