@@ -55,7 +55,9 @@ The design is considered successful when:
 1. A credible preliminary mass budget exists (WP-13)
 2. A realistic development and assembly path is defined (WP-14)
 3. Major risks are identified and tracked (WP-15)
-4. The ship can, in principle, be built with advanced but non-magical industrial capacity in cislunar / solar orbit
+4. No step in the concept requires physics outside the known standard model, and no step requires an industrial capability that is impossible in principle in cislunar / solar orbit
+
+On criterion 4, "in principle" carries almost all the weight. Nothing here is demonstrated: sustained D–³He ICF, ³He supply at propellant scale, a lunar mass-driver of the assumed payload class, and multi-decade reliability are all open at the physics-to-industry boundary. Criterion 4 is satisfied when a concept contains no impossibility, which is a much weaker statement than buildability. See [TECHNOLOGY-READINESS-AND-REALISM.md](../docs/TECHNOLOGY-READINESS-AND-REALISM.md).
 
 ---
 

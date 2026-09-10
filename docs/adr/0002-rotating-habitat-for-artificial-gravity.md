@@ -15,7 +15,7 @@ Primary living and working habitats shall use rotation (counter-rotating cylinde
 ## Consequences
 
 **Positive**
-- Proven physics, no exotic technology required
+- Established physics — centripetal acceleration needs no new effect. The gap is engineering scale and multi-decade reliability at 140 m radius, not principle; no rotating habitat above centrifuge-module scale has flown
 - Continuous gravity without constant thrust
 - Psychological and physiological benefits for long-term crews
 

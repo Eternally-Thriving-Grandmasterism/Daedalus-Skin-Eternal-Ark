@@ -24,6 +24,9 @@ jobs:
       - name: Run stdlib unittest suite
         run: python -m unittest discover -s tests -t . -v
 
+      - name: Realism lint
+        run: python -m tools.realism_lint
+
       - name: Record that no physics solver is present
         run: python -m tools.solver_probe
 

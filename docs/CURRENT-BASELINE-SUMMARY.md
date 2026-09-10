@@ -22,6 +22,10 @@
 
 ## 2. Locked Mass & Performance Numbers
 
+**Locked = configuration-controlled planning value.** Every number below is an engineering
+estimate under change control, not a measurement. None has been confirmed by FEA, radiation
+transport, or hardware test.
+
 | Item | Locked / Planning Value |
 |------|-------------------------|
 | Rotating habitat structure | **5,850 t** |
