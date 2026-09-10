@@ -16,7 +16,7 @@ The Reference Seed Vessel (DSA-Ref-A) possesses a comprehensive, coherent, and l
 - Mission and system requirements
 - Architecture decisions and interfaces
 - Propulsion, power, life support, structure, shielding, and sail design baselines
-- Fully reconciled mass and power budgets (including residual fusion)
+- Internally reconciled mass and power budgets, including residual fusion — self-consistent, not externally confirmed
 - Complete first-round FMEA for major system clusters
 - Integrated risk picture (refreshed against locked baselines)
 - Technology maturation plan with measurable gates
@@ -53,7 +53,10 @@ The Reference Seed Vessel (DSA-Ref-A) possesses a comprehensive, coherent, and l
 
 ## Summary
 
-Deliberative definition and detailed-engineering baselines are complete to the Nth degree achievable without physical testing.  
-The repository is ready to guide real detailed engineering, physical testing, and eventual construction of the first Daedalus-Skin Seed Vessel under Autonomicity Games Inc.
+Deliberative definition and detailed-engineering baselines are as complete as paper can make them. That is a real milestone and a narrow one: it exhausts what deliberation can do, and it moves no technology readiness level.
+
+The concept's enabling threads sit low on the readiness scale. Sustained D–³He ICF with a magnetic nozzle, industrial ³He supply, a 140 m radiation-hardened rotating habitat, closed-loop life support at 300-person multi-year scale, a large superconducting magnetic sail, and multi-decade integrated reliability are each undemonstrated at the required scale; the gaps are enumerated in [TECHNOLOGY-READINESS-AND-REALISM.md](TECHNOLOGY-READINESS-AND-REALISM.md) §3.
+
+The repository is therefore usable for one thing: ordering and gating the physical work that would have to come next. It is not a construction authorization, and it does not shorten the climb it makes legible.
 
 **Thunder holds. The lattice is prepared.**

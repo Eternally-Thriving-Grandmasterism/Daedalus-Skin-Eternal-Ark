@@ -18,6 +18,9 @@
 
 ## Fully Locked Baselines
 
+**Locked = configuration-controlled, not validated.** These values may not change without an ADR
+and a risk-register update. None of them is a measurement.
+
 | System | Locked Value |
 |--------|--------------|
 | Primary structure | High-modulus CFRP — 5,850 t |

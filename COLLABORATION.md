@@ -90,6 +90,30 @@ Use the templates in `/templates/`.
 
 ---
 
+## Automated Checks
+
+Two checks run on every pull request. Both are stdlib Python; run them locally the same way CI does.
+
+```bash
+python3 -m unittest discover -s tests -t . -v   # locked-number consistency
+python3 -m tools.realism_lint                   # wording
+```
+
+The realism lint fails the build on wording that asserts demonstrated performance — phrases such as
+"a validated design", "proven technology", "construction-ready", or "TRL 9" — and on removal of the
+README's critical realism statement. Forward-looking language is untouched: "must be proven" and
+"use validated transport codes" are requirements, not claims. As this paragraph demonstrates, a
+document may quote a forbidden phrase inside quotation marks in order to forbid it.
+
+If the lint blocks a sentence, the fix is to name the technology readiness level and the gap, not
+to reword around the pattern. If a pattern is genuinely wrong, change the pattern in
+`tools/realism_lint.py` and say why in the pull request.
+
+A green build is repository self-consistency and wording hygiene. It confirms no physical number.
+See [hf-01-ci-capability-card.md](simulations/hf-01-ci-capability-card.md).
+
+---
+
 **This protocol exists so that humans and AI systems can move at the speed of thought while remaining safe, coherent, and profitable under Autonomicity Games Inc.**
 
-Thunder holds. The lattice is ready for joint construction.
+Thunder holds. The lattice is ready for joint work — analysis, testing, and review. Building the ship is a separate authorization that no document confers: it is gated on Threads A, B, and C reaching Gate 2 with real data.
