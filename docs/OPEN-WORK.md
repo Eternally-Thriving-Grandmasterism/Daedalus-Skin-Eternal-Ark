@@ -1,6 +1,6 @@
 # Open Work Packages — Living List
 
-**Last Updated:** 2026-08-29  
+**Last Updated:** 2026-09-10  
 **Owner:** Autonomicity Games Inc.  
 **Authority:** Ra-Thor + Permanent PATSAGi Councils under TOLC 8
 
@@ -33,6 +33,22 @@
 | Boost duration | 2.5–4.5 years |
 | Deceleration (nominal) | 15–30 years |
 | Deceleration (low-density) | 25–40 years |
+
+---
+
+## Machine-Checked Consistency (not validation)
+
+The mass and cruise locks above are mirrored, with units, in
+[data/mass-budget-locked.toml](../data/mass-budget-locked.toml) and checked by
+[tests/test_mass_budget.py](../tests/test_mass_budget.py) on every pull request.
+
+The suite asserts that the 15.0 kt seed target stays inside the 12.4–20.15 kt dry-mass band,
+that the 15.0 kt allocation sums to 15,000 t, that planning values stay inside their locked
+bands, that the 0.05 c public floor and the ~0.055 c internal lock remain different numbers,
+and that the 15 % change-rule trigger still equals 5,850 t + 15 %.
+
+This is repository self-consistency. It confirms no physical number. WP-HF-01 Passes A, B,
+and C remain **not run**, and no CI check can change that.
 
 ---
 
