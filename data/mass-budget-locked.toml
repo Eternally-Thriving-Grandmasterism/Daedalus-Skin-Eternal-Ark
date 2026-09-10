@@ -1,0 +1,203 @@
+# DSA-Ref-A locked mass & cruise numbers — machine-readable mirror
+#
+# Status: transcription only. This file introduces NO new numbers.
+# Every value here already appears in the prose documents named in `source`.
+# Proof Ladder: design / systems-engineering posture. Nothing here is measured
+# data, and encoding a number in TOML does not raise its tier.
+#
+# Rule: every quantity carries an explicit `unit`. Tests enforce this.
+# Contact: info@Rathor.ai
+
+schema_version = 1
+reference_design = "DSA-Ref-A"
+authority = "Ra-Thor + Permanent PATSAGi Councils under TOLC 8"
+proof_tier = "design / systems-engineering (not measured)"
+
+source_documents = [
+  "docs/CURRENT-BASELINE-SUMMARY.md",
+  "docs/OPEN-WORK.md",
+  "docs/interfaces/01-mass-budget-propulsion-interface.md",
+  "docs/adr/0003-15kt-seed-lunar-loft-005c-gate.md",
+  "manufacturing/reference-seed-mass-budget.md",
+]
+
+[constants]
+
+[constants.speed_of_light]
+value = 299792458.0
+unit = "m/s"
+source = "CODATA defined value"
+
+[constants.tonne_per_kilotonne]
+value = 1000.0
+unit = "t/kt"
+source = "SI prefix"
+
+# ---------------------------------------------------------------------------
+# Quantities. `kind` is either "point" (has `value`) or "band" (has `min`/`max`).
+# ---------------------------------------------------------------------------
+
+[quantities]
+
+[quantities.collaboration_seed_dry_mass]
+kind = "point"
+value = 15.0
+unit = "kt"
+status = "target"
+disclosure = "public"
+source = "docs/adr/0003-15kt-seed-lunar-loft-005c-gate.md"
+note = "A target inside the dry-mass band, not a measurement and not a new lock."
+
+[quantities.dry_mass_band]
+kind = "band"
+min = 12.4
+max = 20.15
+unit = "kt"
+status = "locked"
+disclosure = "public"
+source = "manufacturing/reference-seed-mass-budget.md"
+
+[quantities.dry_mass_planning_center]
+kind = "band"
+min = 15.5
+max = 16.5
+unit = "kt"
+status = "planning"
+disclosure = "public"
+source = "manufacturing/reference-seed-mass-budget.md"
+
+[quantities.public_cruise_floor]
+kind = "point"
+value = 0.05
+unit = "c"
+status = "floor"
+disclosure = "public"
+source = "docs/adr/0003-15kt-seed-lunar-loft-005c-gate.md"
+note = "The value used in external language. Not a guaranteed exhaust-velocity result."
+
+[quantities.internal_cruise_lock]
+kind = "point"
+value = 0.055
+unit = "c"
+status = "lock"
+disclosure = "internal"
+source = "docs/CURRENT-BASELINE-SUMMARY.md"
+note = "Internal performance lock. Stays internal until exhaust velocity is measured."
+
+[quantities.rotating_habitat_structure]
+kind = "point"
+value = 5850.0
+unit = "t"
+status = "locked"
+disclosure = "public"
+source = "manufacturing/reference-seed-mass-budget.md"
+note = "High-modulus CFRP, FE-CFRP-01 planning lock. HF-01 Pass A has not been run."
+
+[quantities.dedicated_shielding]
+kind = "band"
+min = 450.0
+max = 750.0
+unit = "t"
+status = "locked"
+disclosure = "public"
+source = "manufacturing/reference-seed-mass-budget.md"
+note = "Monte-Carlo transport confirmation (HF-01 Pass B) has not been run."
+
+[quantities.magnetic_sail_ms_b]
+kind = "band"
+min = 550.0
+max = 750.0
+unit = "t"
+status = "locked"
+disclosure = "public"
+source = "manufacturing/reference-seed-mass-budget.md"
+note = "Planning band. Gate E1 does not weigh the flight sail."
+
+[quantities.residual_fusion_propellant]
+kind = "band"
+min = 1800.0
+max = 3500.0
+unit = "t"
+status = "locked"
+disclosure = "public"
+source = "manufacturing/reference-seed-mass-budget.md"
+note = "Wet mass. Not part of the dry-mass band."
+
+[quantities.residual_tankage_dry]
+kind = "band"
+min = 250.0
+max = 500.0
+unit = "t"
+status = "locked"
+disclosure = "public"
+source = "manufacturing/reference-seed-mass-budget.md"
+
+[quantities.change_rule_fraction]
+kind = "point"
+value = 0.15
+unit = "1"
+status = "rule"
+disclosure = "public"
+source = "manufacturing/reference-seed-mass-budget.md"
+note = "Any analysis moving a major category by more than this must update the budget and risk register."
+
+# ---------------------------------------------------------------------------
+# The 15.0 kt allocation from docs/interfaces/01-mass-budget-propulsion-interface.md §3.
+# Planning values only. `band` cross-references a locked band above where one exists.
+# ---------------------------------------------------------------------------
+
+[allocation_15kt]
+target_value = 15.0
+target_unit = "kt"
+line_unit = "t"
+source = "docs/interfaces/01-mass-budget-propulsion-interface.md"
+note = "Planning allocation that closes to the 15.0 kt target. Not a measured breakdown."
+
+[[allocation_15kt.line]]
+category = "rotating_habitat_structure"
+value = 5850.0
+unit = "t"
+band = "rotating_habitat_structure"
+
+[[allocation_15kt.line]]
+category = "non_rotating_spine_and_propulsion_structure"
+value = 2000.0
+unit = "t"
+
+[[allocation_15kt.line]]
+category = "dedicated_radiation_shielding"
+value = 600.0
+unit = "t"
+band = "dedicated_shielding"
+
+[[allocation_15kt.line]]
+category = "life_support_and_outfitting"
+value = 2200.0
+unit = "t"
+
+[[allocation_15kt.line]]
+category = "power_systems"
+value = 1600.0
+unit = "t"
+
+[[allocation_15kt.line]]
+category = "propulsion_hardware_dry"
+value = 1200.0
+unit = "t"
+
+[[allocation_15kt.line]]
+category = "magnetic_sail_ms_b"
+value = 650.0
+unit = "t"
+band = "magnetic_sail_ms_b"
+
+[[allocation_15kt.line]]
+category = "residual_tankage_dry"
+value = 350.0
+unit = "t"
+band = "residual_tankage_dry"
+
+[[allocation_15kt.line]]
+category = "spares_docking_manufacturing"
+value = 550.0
+unit = "t"

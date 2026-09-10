@@ -1,0 +1,25 @@
+name: consistency-tests
+
+# Repository self-consistency only. This workflow runs no FEA, no radiation
+# transport, and no physics solver. A green check here means the locked numbers
+# still agree with each other, not that any of them has been validated.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  unittest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run stdlib unittest suite
+        run: python -m unittest discover -s tests -t . -v
