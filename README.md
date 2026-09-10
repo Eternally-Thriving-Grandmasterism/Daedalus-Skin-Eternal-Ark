@@ -37,6 +37,7 @@ Sustained D–³He ICF, industrial ³He supply, radiation-hardened self-healing 
 | [reference-seed-mass-budget.md](manufacturing/reference-seed-mass-budget.md) | Authoritative mass & power |
 | [integrated-risk-picture.md](governance/integrated-risk-picture.md) | Current risk view |
 | [COLLABORATION.md](COLLABORATION.md) | Human + AI protocol |
+| [scripts/README.md](scripts/README.md) | Documentation-QA tooling (link + TOML integrity, Markdown lint) |
 
 ---
 
