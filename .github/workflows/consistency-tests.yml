@@ -23,3 +23,9 @@ jobs:
           python-version: "3.12"
       - name: Run stdlib unittest suite
         run: python -m unittest discover -s tests -t . -v
+
+      - name: Record that no physics solver is present
+        run: python -m tools.solver_probe
+
+      - name: HF-01 Pass A closed-form arithmetic (not FEA, does not close the gate)
+        run: python -m tools.hf01_pass_a_toy

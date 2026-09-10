@@ -142,6 +142,11 @@ Record every attempt in `simulations/` using:
 
 A blank run card is the correct state today.
 
+What this repository can and cannot compute on its own is recorded in
+[hf-01-ci-capability-card.md](../../simulations/hf-01-ci-capability-card.md): no FEA solver and no
+Monte-Carlo transport code is available to CI, and Pass C needs hardware. Continuous integration
+does not add rows to the run card.
+
 ---
 
 ## 7. Governance
