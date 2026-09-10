@@ -1,0 +1,13 @@
+{
+  "name": "daedalus-skin-eternal-ark-docs",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Documentation-QA tooling for the Daedalus-Skin Eternal Ark systems-engineering lattice.",
+  "scripts": {
+    "lint:md": "markdownlint-cli2 \"**/*.md\"",
+    "validate": "./scripts/validate.sh"
+  },
+  "devDependencies": {
+    "markdownlint-cli2": "^0.23.2"
+  }
+}

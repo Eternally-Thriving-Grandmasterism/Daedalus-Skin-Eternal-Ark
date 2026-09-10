@@ -1,0 +1,47 @@
+{
+  // Lenient Markdown lint profile for the Daedalus-Skin Eternal Ark lattice.
+  //
+  // The documents are freeform engineering prose and tables, so purely cosmetic
+  // rules (line length, blank-line spacing, table pipe alignment, etc.) are
+  // disabled. The rules that remain catch genuine defects: broken link syntax,
+  // empty links, reversed links, and undefined reference links.
+  "config": {
+    "default": true,
+
+    // Cosmetic / stylistic rules intentionally disabled.
+    "MD001": false, // heading increment
+    "MD003": false, // heading style
+    "MD004": false, // unordered list style
+    "MD007": false, // unordered list indentation
+    "MD009": false, // trailing spaces
+    "MD010": false, // hard tabs
+    "MD012": false, // multiple consecutive blank lines
+    "MD013": false, // line length
+    "MD022": false, // blanks around headings
+    "MD024": false, // duplicate headings
+    "MD025": false, // multiple top-level headings
+    "MD026": false, // trailing punctuation in heading
+    "MD028": false, // blank line inside blockquote
+    "MD029": false, // ordered list item prefix
+    "MD030": false, // spaces after list markers
+    "MD031": false, // blanks around fenced code
+    "MD032": false, // blanks around lists
+    "MD033": false, // inline HTML
+    "MD034": false, // bare URLs
+    "MD035": false, // horizontal rule style
+    "MD036": false, // emphasis used instead of heading
+    "MD040": false, // fenced code language
+    "MD041": false, // first line top-level heading
+    "MD045": false, // images should have alt text
+    "MD046": false, // code block style
+    "MD047": false, // file should end with newline
+    "MD048": false, // code fence style
+    "MD049": false, // emphasis style
+    "MD050": false, // strong style
+    "MD055": false, // table pipe style
+    "MD058": false, // blanks around tables
+    "MD060": false  // table column style
+  },
+  "globs": ["**/*.md"],
+  "ignores": ["node_modules", ".git"]
+}
